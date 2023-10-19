@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Education from './components/Education';
 import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
-import About from './components/About';
+import Slider from './components/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -21,7 +21,7 @@ function App() {
               <Route path="/education" element={<Education />} />
               <Route path="/workexperience" element={<WorkExperience />} />
               <Route path="/projects" element={<Projects />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/about" element={<Slider />} />
           </Routes>
         <Footer />
       </div>
