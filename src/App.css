@@ -1,0 +1,372 @@
+                                /* Navbar */
+
+.navbar-container {
+  padding: 2%;
+}
+
+.navbar-links-div {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+}
+
+.navbar-links {
+  margin-right: 2%;
+  text-decoration: inherit;
+  color: inherit;
+  font-size: 150%;
+}
+
+                                /* Footer */
+
+.footer-container {
+  background-color: darkslateblue;
+  height: 150px;
+  display: flex;
+}
+
+.footer-left {
+  flex: 1;
+  margin-top: 40px;
+  border-top: solid black;
+  margin-left: 40px;
+}
+
+.footer-right {
+  flex: 1;
+  margin-top: 40px;
+  border-top: solid black;
+  margin-right: 40px;
+}
+
+.footer-social-media {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-icons {
+  color: white;
+  margin-top: 5px;
+  margin-left: 1px;
+}
+
+.footer-github-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #171515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer-linkedin-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0077B5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer-facebook-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3b5998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer-contact-info {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-contact-phone {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer-contact-email {
+  color: white;
+  font-family: sans-serif;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+                                /* Home */
+
+.home-container {
+  background-color: darkslateblue;
+  color: white;
+}
+
+.home-body {
+padding: 10%;
+width: 50%;
+margin-left: 15%;
+}
+
+.home-name {
+  font-size: 300%;
+}
+
+.home-description {
+  font-size: 150%;
+  font-family: 'Times New Roman';
+}
+
+.home-quote {
+  text-align: center;
+  font-size: 150%;
+  font-style: italic;
+}
+
+.home-quote-author {
+  text-align: center;
+  font-size: 120%;
+  font-style: oblique;
+}
+
+                                  /* Education */
+
+.education-container {
+  background-color: darkslateblue;
+}
+                                    
+.education-calpoly-container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+                                    
+.education-calpoly-header {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  color: white;
+  padding: 0.5%;
+}
+                                    
+.education-calpoly-body {
+  display: flex;
+  margin-left: 50px;
+}
+                                    
+.education-calpoly-left {
+  flex: 1;
+  text-align: center;
+  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/CalPoly_Seal.svg/640px-CalPoly_Seal.svg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+                                    
+.education-calpoly-right {
+  flex: 1;
+  padding: 5%;
+  color: white;
+  font-size: 150%;
+}
+
+.education-aghs-container {
+  border-top: solid black;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.education-aghs-header {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 30px;
+  color: white;
+  padding: 0.5%;
+}
+                                    
+.education-aghs-body {
+  display: flex;
+  margin-right: 50px;
+}
+                                    
+.education-aghs-right {
+  flex: 1;
+  background: url(https://media2.newtimesslo.com/ntslo/imager/u/original/11083788/news5-1-0eb17f74226d5e4a.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+                                    
+.education-aghs-left {
+  flex: 1;
+  padding: 5%;
+  color: white;
+  font-size: 150%;
+}
+
+                                  /* Work Experience */
+
+.work-experience-container {
+  background-color: darkslateblue;
+}
+                                    
+.work-experience-mechanics-bank-container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+                                    
+.work-experience-mechanics-bank-header {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  padding: 0.5%;
+}
+                                    
+.work-experience-mechanics-bank-body {
+  display: flex;
+  margin-left: 50px;
+}
+                                    
+.work-experience-mechanics-bank-left {
+  flex: 1;
+  text-align: center;
+  background: url(https://pfac-pro.org/wp-content/uploads/2019/04/Mechanics-bank-768x245.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+                                    
+.work-experience-mechanics-bank-right {
+  flex: 1;
+  padding: 5%;
+  color: white;
+  font-size: 150%;
+}
+
+.work-experience-revasum-container {
+  border-top: solid black;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.work-experience-revasum-header {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  padding: 0.5%;
+}
+                                    
+.work-experience-revasum-body {
+  display: flex;
+  margin-right: 50px;
+}
+                                    
+.work-experience-revasum-right {
+  flex: 1;
+  background: url(https://eadn-wc03-5926357.nxedge.io/wp-content/uploads/2018/08/Revasum_1024.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+                                    
+.work-experience-revasum-left {
+  flex: 1;
+  padding: 5%;
+  color: white;
+  font-size: 150%;
+}
+
+.work-experience-marshalls-container {
+  border-top: solid black;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+                                    
+.work-experience-marshalls-header {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  padding: 0.5%;
+}
+                                    
+.work-experience-marshalls-body {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 2%;
+}
+                                    
+.work-experience-marshalls-left {
+  flex: 1;
+  text-align: center;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Marshalls_Logo.svg/2560px-Marshalls_Logo.svg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+                                    
+.work-experience-marshalls-right {
+  flex: 1;
+  padding: 5%;
+  color: white;
+  font-size: 150%;
+}
+
+.work-experience-doc-burnsteins-container {
+  border-top: solid black;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.work-experience-doc-burnsteins-header {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  padding: 0.5%;
+}
+                                    
+.work-experience-doc-burnsteins-body {
+  display: flex;
+  margin-right: 50px;
+}
+                                    
+.work-experience-doc-burnsteins-right {
+  flex: 1;
+  background: url(https://eadn-wc03-5926357.nxedge.io/wp-content/uploads/2018/08/Doc-Burnsteins-Ice-Cream-Lab_1200.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+                                    
+.work-experience-doc-burnsteins-left {
+  flex: 1;
+  padding: 5%;
+  color: white;
+  font-size: 150%;
+}
