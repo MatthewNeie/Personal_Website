@@ -1,11 +1,13 @@
 import React from 'react'
 import { useRef } from 'react';
+import Reveal from './Reveal';
 
 const WorkExperience = ({mechRef, fsRef}) => {
 
 
   return (
     <div className="work-experience-container">
+        <Reveal>
         <div className="work-experience-mechanics-bank-container" ref = {mechRef}>
             <div className="work-experience-mechanics-bank-header">
                 {/* <h2>Mechanics Bank</h2> */}
@@ -15,8 +17,13 @@ const WorkExperience = ({mechRef, fsRef}) => {
                     {/* <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/CalPoly_Seal.svg/640px-CalPoly_Seal.svg.png"></img> */}
                 </div>
                 <div className="work-experience-mechanics-bank-right">
+                <Reveal>
                     <p>TITLE: Customer Service Representative, Universal Banker</p>
+                </Reveal>
+                <Reveal>
                     <p>YEARS: Dec. 2019 - Jan 2023</p>
+                </Reveal>
+                <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed luctus, lacus id tincidunt fringilla, sem mauris laoreet sapien, vitae porttitor quam risus et purus.
                         Morbi eget varius nibh. In pretium ipsum ac pulvinar ullamcorper.
@@ -27,18 +34,28 @@ const WorkExperience = ({mechRef, fsRef}) => {
                         Ut dignissim varius felis nec ultrices. In pretium ipsum ac pulvinar ullamcorper.
                         Curabitur at dolor facilisis, varius mauris vitae, porta tellus.
                         Integer posuere nisi ut felis semper lobortis.</p>
+                </Reveal>
+                <Reveal>
                     <p>LOCATION: San Luis Obispo, CA; Pismo Beach, CA</p>
+                </Reveal>
                 </div>
             </div>
         </div>
+        </Reveal>
         <div className="work-experience-revasum-container">
+            <Reveal>
             <div className="work-experience-revasum-header">
                 {/* <h2>Revasum</h2> */}
             </div>
             <div className="work-experience-revasum-body">
                 <div className="work-experience-revasum-left">
+                <Reveal>
                     <p>TITLE: Inventory Control Associate</p>
+                </Reveal>
+                <Reveal>
                     <p>YEARS: Apr. 2019 - Oct. 2019</p>
+                </Reveal>
+                <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed luctus, lacus id tincidunt fringilla, sem mauris laoreet sapien, vitae porttitor quam risus et purus.
                         Morbi eget varius nibh. In pretium ipsum ac pulvinar ullamcorper.
@@ -49,14 +66,19 @@ const WorkExperience = ({mechRef, fsRef}) => {
                         Ut dignissim varius felis nec ultrices. In pretium ipsum ac pulvinar ullamcorper.
                         Curabitur at dolor facilisis, varius mauris vitae, porta tellus.
                         Integer posuere nisi ut felis semper lobortis.</p>
+                </Reveal>
+                <Reveal>
                     <p>LOCATION: San Luis Obispo, CA</p>
+                </Reveal>
                 </div>
                 <div className="work-experience-revasum-right">
                     {/* <img src="https://media2.newtimesslo.com/ntslo/imager/u/original/11083788/news5-1-0eb17f74226d5e4a.jpg"></img> */}
                 </div>
             </div>
+            </Reveal>
         </div>
         <div className="work-experience-marshalls-container">
+            <Reveal>
             <div className="work-experience-marshalls-header">
                 {/* <h2>Marshalls</h2> */}
             </div>
@@ -65,8 +87,13 @@ const WorkExperience = ({mechRef, fsRef}) => {
                     {/* <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/CalPoly_Seal.svg/640px-CalPoly_Seal.svg.png"></img> */}
                 </div>
                 <div className="work-experience-marshalls-right">
+                <Reveal>
                     <p>TITLE: Cashier, Merchandise Associate</p>
+                </Reveal>
+                <Reveal>
                     <p>YEARS: Oct. 2014 - Apr. 2016</p>
+                </Reveal>
+                <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed luctus, lacus id tincidunt fringilla, sem mauris laoreet sapien, vitae porttitor quam risus et purus.
                         Morbi eget varius nibh. In pretium ipsum ac pulvinar ullamcorper.
@@ -77,18 +104,28 @@ const WorkExperience = ({mechRef, fsRef}) => {
                         Ut dignissim varius felis nec ultrices. In pretium ipsum ac pulvinar ullamcorper.
                         Curabitur at dolor facilisis, varius mauris vitae, porta tellus.
                         Integer posuere nisi ut felis semper lobortis.</p>
+                </Reveal>
+                <Reveal>
                     <p>LOCATION: Arroyo Grande, CA</p>
+                </Reveal>
                 </div>
             </div>
+            </Reveal>
         </div>
         <div className="work-experience-doc-burnsteins-container">
+            <Reveal>
             <div className="work-experience-doc-burnsteins-header">
                 {/* <h2>Doc Burnsteins</h2> */}
             </div>
             <div className="work-experience-doc-burnsteins-body">
                 <div className="work-experience-doc-burnsteins-left">
+                    <Reveal>
                     <p>TITLE: Scooper, Parlor Specialist</p>
+                    </Reveal>
+                    <Reveal>
                     <p>YEARS: Jun. 2010 - Jun. 2012</p>
+                    </Reveal>
+                    <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed luctus, lacus id tincidunt fringilla, sem mauris laoreet sapien, vitae porttitor quam risus et purus.
                         Morbi eget varius nibh. In pretium ipsum ac pulvinar ullamcorper.
@@ -99,12 +136,16 @@ const WorkExperience = ({mechRef, fsRef}) => {
                         Ut dignissim varius felis nec ultrices. In pretium ipsum ac pulvinar ullamcorper.
                         Curabitur at dolor facilisis, varius mauris vitae, porta tellus.
                         Integer posuere nisi ut felis semper lobortis.</p>
+                    </Reveal>
+                    <Reveal>
                     <p>LOCATION: Arroyo Grande, CA</p>
+                    </Reveal>
                 </div>
                 <div className="work-experience-doc-burnsteins-right">
                     {/* <img src="https://media2.newtimesslo.com/ntslo/imager/u/original/11083788/news5-1-0eb17f74226d5e4a.jpg"></img> */}
                 </div>
             </div>
+            </Reveal>
         </div>
     </div>
   )

@@ -7,6 +7,7 @@ import Education from './Education';
 import WorkExperience from './WorkExperience';
 import { Work } from '@mui/icons-material';
 import Contact from './Contact';
+import Reveal from './Reveal';
 
 const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
 
@@ -40,7 +41,8 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
   <>
     <Sidebar homeRef={homeRef} contactRef={contactRef}/>
     <div className="home-container" ref = {homeRef} >
-        <div className="home-body">
+            <div className="home-body">
+          <Reveal>
             <h1 className="home-name">Matthew Neie</h1>
             <p className="home-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Sed luctus, lacus id tincidunt fringilla, sem mauris laoreet sapien, vitae porttitor quam risus et purus.
@@ -52,10 +54,11 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
         Ut dignissim varius felis nec ultrices. In pretium ipsum ac pulvinar ullamcorper.
         Curabitur at dolor facilisis, varius mauris vitae, porta tellus.
         Integer posuere nisi ut felis semper lobortis.</p>
-
+      <br></br>
             <p className="home-quote">"I have not failed. I've found 10,000 ways that won't work."</p>
             <p className="home-quote-author">-Thomas Edison</p>
-        </div>
+          </Reveal>
+          </div>
     </div>
         <div className="slider-container">
         { slideIndex === 0 ? null :

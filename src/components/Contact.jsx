@@ -1,11 +1,13 @@
 import React from 'react'
+import Reveal from './Reveal'
 
 const Contact = ({contactRef}) => {
 
-    
+
 
   return (
     <div className="contact-container" ref={contactRef}>
+        <Reveal>
         <div className="contact-title-container">
             <h1 className="contact-header">Contact me</h1>
             <p className="contact-desc">I am interested in developing web projects and freelance opportunities.
@@ -46,6 +48,7 @@ const Contact = ({contactRef}) => {
                 placeholder="Message"
                 required />
       </div>
+      </Reveal>
     </div>
   )
 }
