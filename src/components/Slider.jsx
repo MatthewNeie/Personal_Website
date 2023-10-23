@@ -21,6 +21,7 @@ const Slider = () => {
     }
 
   return (
+  <>
     <div className="slider-container">
         { slideIndex === 0 ? null :
             <button className="arrow-left" onClick={leftHandleClick}><ArrowLeftOutlinedIcon /></button>}
@@ -60,6 +61,7 @@ const Slider = () => {
         { slideIndex === 2 ? null :
             <button className="arrow-right" onClick={rightHandleClick}><ArrowRightOutlinedIcon /></button>}
     </div>
+  </>
   )
 }
 

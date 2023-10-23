@@ -1,9 +1,12 @@
 import React from 'react'
+import { useRef } from 'react';
 
-const WorkExperience = () => {
+const WorkExperience = ({mechRef, fsRef}) => {
+
+
   return (
     <div className="work-experience-container">
-        <div className="work-experience-mechanics-bank-container">
+        <div className="work-experience-mechanics-bank-container" ref = {mechRef}>
             <div className="work-experience-mechanics-bank-header">
                 {/* <h2>Mechanics Bank</h2> */}
             </div>
@@ -57,7 +60,7 @@ const WorkExperience = () => {
             <div className="work-experience-marshalls-header">
                 {/* <h2>Marshalls</h2> */}
             </div>
-            <div className="work-experience-marshalls-body">
+            <div className="work-experience-marshalls-body" ref={fsRef}>
                 <div className="work-experience-marshalls-left">
                     {/* <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/CalPoly_Seal.svg/640px-CalPoly_Seal.svg.png"></img> */}
                 </div>

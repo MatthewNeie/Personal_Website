@@ -1,12 +1,13 @@
 import React from 'react'
+import { useRef } from 'react';
 
-const Education = () => {
+const Education = ({calRef}) => {
   return (
     <div className="education-container">
-        <div className="education-calpoly-container">
-            <div className="education-calpoly-header">
+        <div className="education-calpoly-container" ref={calRef}>
+            {/* <div className="education-calpoly-header">
                 <h2>California Polytechnic State University, San Luis Obispo, CA</h2>
-            </div>
+            </div> */}
             <div className="education-calpoly-body">
                 <div className="education-calpoly-left">
                     {/* <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/CalPoly_Seal.svg/640px-CalPoly_Seal.svg.png"></img> */}
@@ -27,9 +28,9 @@ const Education = () => {
             </div>
         </div>
         <div className="education-aghs-container">
-            <div className="education-aghs-header">
+            {/* <div className="education-aghs-header">
                 <h2>Arroyo Grande High School</h2>
-            </div>
+            </div> */}
             <div className="education-aghs-body">
                 <div className="education-aghs-left">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
