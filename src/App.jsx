@@ -21,6 +21,8 @@ function App() {
 
   const homeRef = useRef(null);
 
+  const contactRef = useRef(null);
+
   const handleClickCalPoly = () => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -37,7 +39,11 @@ function App() {
     <Router>
       <div className="App">
           <Routes>
-              <Route path="/" element={<Home calRef={calRef} mechRef={mechRef} fsRef={fsRef} homeRef={homeRef} />} />
+              <Route path="/" element={<Home calRef={calRef}
+                                              mechRef={mechRef}
+                                              fsRef={fsRef}
+                                              homeRef={homeRef}
+                                              contactRef={contactRef} />} />
               <Route path="/education" element={<Education />} />
               <Route path="/workexperience" element={<WorkExperience />} />
               <Route path="/projects" element={<Projects />} />

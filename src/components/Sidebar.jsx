@@ -5,7 +5,11 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 
-const Sidebar = ({homeRef}) => {
+const Sidebar = ({homeRef, contactRef}) => {
+
+    const handleClickContact = () => {
+        contactRef.current?.scrollIntoView({ behavior: 'smooth' });
+      };
 
     const handleClickHome = () => {
         homeRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -24,7 +28,7 @@ const Sidebar = ({homeRef}) => {
             <FontAwesomeIcon className="sidebar-profile-icon" icon={faUser} color="grey" />
         </div>
         <div className="sidebar-contact-icon2">
-            <FontAwesomeIcon className="sidebar-profile-icon" icon={faEnvelope} color="grey" />
+            <FontAwesomeIcon className="sidebar-profile-icon" onClick={handleClickContact} icon={faEnvelope} color="grey" />
         </div>
       </div>
       <div className="sidebar-links-container"><div className="footer-social-media">

@@ -8,7 +8,7 @@ import WorkExperience from './WorkExperience';
 import { Work } from '@mui/icons-material';
 import Contact from './Contact';
 
-const Home = ({calRef, mechRef, fsRef, homeRef}) => {
+const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
 
   const handleClickCalPoly = () => {
     calRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -38,7 +38,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef}) => {
 
   return (
   <>
-    <Sidebar homeRef={homeRef} />
+    <Sidebar homeRef={homeRef} contactRef={contactRef}/>
     <div className="home-container" ref = {homeRef} >
         <div className="home-body">
             <h1 className="home-name">Matthew Neie</h1>
@@ -96,7 +96,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef}) => {
     </div>
     <Education calRef={calRef} />
     <WorkExperience mechRef={mechRef} fsRef={fsRef} />
-    <Contact />
+    <Contact contactRef={contactRef} />
   </>
   )
 }

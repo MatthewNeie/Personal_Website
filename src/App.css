@@ -270,6 +270,16 @@ margin-left: 15%;
   background-repeat: no-repeat;
   background-color: white;
   margin-top: 50px;
+  transition: 1s ease;
+  opacity: .8;
+}
+
+.education-calpoly-left:hover{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+  opacity: 1;
 }
                                     
 .education-calpoly-right {
@@ -308,6 +318,16 @@ margin-left: 15%;
   background-position: center;
   margin-bottom: 40px;
   margin-top: 50px;
+  transition: 1s ease;
+  opacity: .8;
+}
+
+.education-aghs-right:hover{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+  opacity: 1;
 }
                                     
 .education-aghs-left {
@@ -353,6 +373,16 @@ margin-left: 15%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: white;
+  transition: 1s ease;
+  opacity: .8;
+}
+
+.work-experience-mechanics-bank-left:hover{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+  opacity: 1;
 }
                                     
 .work-experience-mechanics-bank-right {
@@ -387,7 +417,17 @@ margin-left: 15%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  transition: 1s ease;
+  opacity: .8;
 }
+  
+  .work-experience-revasum-right:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+    opacity: 1;
+  }
                                     
 .work-experience-revasum-left {
   flex: 1;
@@ -424,6 +464,16 @@ margin-left: 15%;
   background-position: center;
   background-repeat: no-repeat;
   background-color: white;
+  transition: 1s ease;
+  opacity: .8;
+}
+
+.work-experience-marshalls-left:hover{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+  opacity: 1;
 }
                                     
 .work-experience-marshalls-right {
@@ -458,6 +508,16 @@ margin-left: 15%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  transition: 1s ease;
+  opacity: .8;
+}
+
+.work-experience-doc-burnsteins-right:hover{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+  opacity: 1;
 }
                                     
 .work-experience-doc-burnsteins-left {
@@ -693,4 +753,65 @@ margin-left: 15%;
 .contact-container {
   margin-left: 120px;
   text-align: center;
+  background-color: darkslateblue;
+}
+
+.contact-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-header {
+  color: gold;
+}
+
+.contact-desc {
+  color: white;
+  width: 450px;
+  font-size: 16px;
+  letter-spacing: .5px;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-form-top {
+  padding: 10px;
+}
+
+.contact-form-subject {
+  margin-bottom: 10px;
+}
+
+.contact-form-message {
+
+}
+
+.name-input {
+  padding: 15px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.email-input {
+  margin-left: 5px;
+  padding: 15px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.subject-input {
+  padding: 15px;
+  width: 439px;
+  font-size: 16px;
+}
+
+.message-input {
+  padding: 15px;
+  width: 440px;
+  height: 100px;
+  font-family: Arial;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
