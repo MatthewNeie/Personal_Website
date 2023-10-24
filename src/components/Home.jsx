@@ -38,12 +38,16 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
   }
 
   return (
-  <>
+  <div>
     <Sidebar homeRef={homeRef} contactRef={contactRef}/>
     <div className="home-container" ref = {homeRef} >
-            <div className="home-body">
+      <div className="home-body">
+        <Reveal>
+            <div className="home-body-left">
           <Reveal>
             <h1 className="home-name">Matthew Neie</h1>
+          </Reveal>
+          <Reveal>
             <p className="home-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Sed luctus, lacus id tincidunt fringilla, sem mauris laoreet sapien, vitae porttitor quam risus et purus.
         Morbi eget varius nibh. In pretium ipsum ac pulvinar ullamcorper.
@@ -54,11 +58,20 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
         Ut dignissim varius felis nec ultrices. In pretium ipsum ac pulvinar ullamcorper.
         Curabitur at dolor facilisis, varius mauris vitae, porta tellus.
         Integer posuere nisi ut felis semper lobortis.</p>
+        </Reveal>
       <br></br>
+        <Reveal>
             <p className="home-quote">"I have not failed. I've found 10,000 ways that won't work."</p>
+        </Reveal>
+        <Reveal>
             <p className="home-quote-author">-Thomas Edison</p>
-          </Reveal>
+        </Reveal>
           </div>
+        </Reveal>
+        <div className="home-body-right">
+          
+        </div>
+      </div>
     </div>
         <div className="slider-container">
         { slideIndex === 0 ? null :
@@ -100,7 +113,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
     <Education calRef={calRef} />
     <WorkExperience mechRef={mechRef} fsRef={fsRef} />
     <Contact contactRef={contactRef} />
-  </>
+  </div>
   )
 }
 

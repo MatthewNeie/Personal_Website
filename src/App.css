@@ -1,4 +1,11 @@
-                                /* Navbar */
+                                  /* html, body */               
+             
+html, body {
+  margin: 0;
+  padding: 0;
+}                        
+
+                                  /* Navbar */
 
 .navbar-container {
   padding: 2%;
@@ -238,17 +245,44 @@
   position: relative;
   color: white;
   margin-left: 120px;
-  height: 1326px;
+  height: 1327px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .home-body {
-  padding: 10%;
-  width: 50%;
+  display: flex;
+}
+
+.home-body-left {
+  flex: 1;
+  width: 75%;
   letter-spacing: 5px;
   line-height: 30px;
+  margin-left: 75px;
+  margin-top: 200px;
+}
+
+.home-body-right {
+  flex: 1;
+  padding: 11%;
+  background: url(https://scontent-sjc3-1.xx.fbcdn.net/v/t1.18169-9/300834_272480486126177_1583095268_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=b9145c&_nc_ohc=dBsxSayxrLEAX99k4w5&_nc_ht=scontent-sjc3-1.xx&oh=00_AfBHrN4FHKonrAmPfwyoTWvxRdhh6facMACUVB-kdHg7iQ&oe=655E56C4);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin-right: 300px;
+  height: 500px;
+  transition: 1s ease;
+  opacity: .8;
+}
+
+.home-body-right:hover{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+  opacity: 1;
 }
 
 .home-name {
@@ -861,4 +895,120 @@
   font-family: Arial;
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+                                    /* Cube */
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 500vh;
+  background-color: rgb(139, 201, 228);
+  animation: body 1s linear;
+}
+@keyframes body {
+  to {
+    background-color: rgb(19, 48, 97);
+  }
+}
+
+.progress {
+  height: 3px;
+  width: 0%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: progress 1s linear;
+}
+@keyframes progress {
+  to {
+    background-color: rgb(20, 255, 226);
+    width: 100%;
+  }
+}
+
+.cube-wrap {
+  --size: 4vmin;
+  position: fixed;
+  top: 6%;
+  left: 2.5%;
+  width: 0;
+  height: 0;
+  perspective: 100vmin;
+}
+.cube {
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateZ(45deg) rotateY(-45deg);
+  animation: cube 1s linear;
+}
+@keyframes cube {
+  to {
+    transform: rotateX(360deg) rotateZ(45deg) rotateY(-45deg);
+  }
+}
+
+.side {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  background-color: #eee;
+  backface-visibility: visible;
+  top: calc(var(--size) * -.5);
+  left: calc(var(--size) * -.5);
+  display: block;
+  border: solid black 1px;
+}
+
+.top {
+  background-color: green;
+  transform: rotateX(90deg) translateZ(calc(var(--size) * .5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.bottom {
+  background-color: blue;
+  transform: rotateX(90deg) translateZ(calc(var(--size) * -.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.left {
+  background-color: red;
+  transform: rotateY(90deg) translateZ(calc(var(--size) * .5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.right {
+  background-color: orange;
+  transform: rotateY(90deg) translateZ(calc(var(--size) * -.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.front {
+  background-color: yellow;
+  transform: translateZ(calc(var(--size) * .5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.back {
+  background-color: white;
+  transform: translateZ(calc(var(--size) * -.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.grid {
+  display: flex;
+  border: solid black 1px;
+}
+
+:root * {
+  /* Pause the animation */
+  animation-play-state: paused;
+  /* Bind the animation to scroll */
+  animation-delay: calc(var(--scroll) * -1s);
+  /* These last 2 properites clean up overshoot weirdness */
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
