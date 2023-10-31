@@ -18,10 +18,10 @@ const WorkExperience = ({mechRef, fsRef}) => {
                 </div>
                 <div className="work-experience-mechanics-bank-right">
                 <Reveal>
-                    <p>TITLE: Customer Service Representative, Universal Banker</p>
+                    <p>Universal Banker</p>
                 </Reveal>
                 <Reveal>
-                    <p>YEARS: Dec. 2019 - Jan 2023</p>
+                    <p>Dec. 2019 - Jan 2023</p>
                 </Reveal>
                 <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -36,7 +36,7 @@ const WorkExperience = ({mechRef, fsRef}) => {
                         Integer posuere nisi ut felis semper lobortis.</p>
                 </Reveal>
                 <Reveal>
-                    <p>LOCATION: San Luis Obispo, CA; Pismo Beach, CA</p>
+                    <p>San Luis Obispo, CA; Pismo Beach, CA</p>
                 </Reveal>
                 </div>
             </div>
@@ -50,10 +50,10 @@ const WorkExperience = ({mechRef, fsRef}) => {
             <div className="work-experience-revasum-body">
                 <div className="work-experience-revasum-left">
                 <Reveal>
-                    <p>TITLE: Inventory Control Associate</p>
+                    <p>Inventory Control Associate</p>
                 </Reveal>
                 <Reveal>
-                    <p>YEARS: Apr. 2019 - Oct. 2019</p>
+                    <p>Apr. 2019 - Oct. 2019</p>
                 </Reveal>
                 <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -68,7 +68,7 @@ const WorkExperience = ({mechRef, fsRef}) => {
                         Integer posuere nisi ut felis semper lobortis.</p>
                 </Reveal>
                 <Reveal>
-                    <p>LOCATION: San Luis Obispo, CA</p>
+                    <p>San Luis Obispo, CA</p>
                 </Reveal>
                 </div>
                 <div className="work-experience-revasum-right">
@@ -88,10 +88,10 @@ const WorkExperience = ({mechRef, fsRef}) => {
                 </div>
                 <div className="work-experience-marshalls-right">
                 <Reveal>
-                    <p>TITLE: Cashier, Merchandise Associate</p>
+                    <p>Merchandise Associate</p>
                 </Reveal>
                 <Reveal>
-                    <p>YEARS: Oct. 2014 - Apr. 2016</p>
+                    <p>Oct. 2014 - Apr. 2016</p>
                 </Reveal>
                 <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -106,7 +106,7 @@ const WorkExperience = ({mechRef, fsRef}) => {
                         Integer posuere nisi ut felis semper lobortis.</p>
                 </Reveal>
                 <Reveal>
-                    <p>LOCATION: Arroyo Grande, CA</p>
+                    <p>Arroyo Grande, CA</p>
                 </Reveal>
                 </div>
             </div>
@@ -120,10 +120,10 @@ const WorkExperience = ({mechRef, fsRef}) => {
             <div className="work-experience-doc-burnsteins-body">
                 <div className="work-experience-doc-burnsteins-left">
                     <Reveal>
-                    <p>TITLE: Scooper, Parlor Specialist</p>
+                    <p>Parlor Specialist</p>
                     </Reveal>
                     <Reveal>
-                    <p>YEARS: Jun. 2010 - Jun. 2012</p>
+                    <p>Jun. 2010 - Jun. 2012</p>
                     </Reveal>
                     <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -138,7 +138,7 @@ const WorkExperience = ({mechRef, fsRef}) => {
                         Integer posuere nisi ut felis semper lobortis.</p>
                     </Reveal>
                     <Reveal>
-                    <p>LOCATION: Arroyo Grande, CA</p>
+                    <p>Arroyo Grande, CA</p>
                     </Reveal>
                 </div>
                 <div className="work-experience-doc-burnsteins-right">

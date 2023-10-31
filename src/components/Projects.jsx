@@ -2,8 +2,8 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
-      
+    <div className="projects-container">
+      <h1 className="projects-header">PROJECTS</h1>
     </div>
   )
 }

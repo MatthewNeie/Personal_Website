@@ -11,7 +11,7 @@ const Contact = ({contactRef}) => {
         <div className="contact-title-container">
             <h1 className="contact-header">Contact me</h1>
             <p className="contact-desc">I am interested in developing web projects and freelance opportunities.
-                I am currently looking for a full-time job in front-end or back-end web development.
+                I am currently looking for full-time employment in front-end or back-end web development.
                 I am eager to improve my technical skills with any opportunity I get.</p>
         </div>
             <div className="contact-form-top">
@@ -47,6 +47,9 @@ const Contact = ({contactRef}) => {
                 id="message"
                 placeholder="Message"
                 required />
+      </div>
+      <div className="contact-form-button-div">
+          <button className="contact-form-button">Send Message</button>
       </div>
       </Reveal>
     </div>

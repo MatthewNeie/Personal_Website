@@ -2,14 +2,29 @@ import React from 'react'
 import { useState , useRef } from 'react';
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
+import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import Sidebar from './Sidebar';
 import Education from './Education';
 import WorkExperience from './WorkExperience';
 import { Work } from '@mui/icons-material';
 import Contact from './Contact';
 import Reveal from './Reveal';
+import Projects from './Projects';
+import TechnicalSkills from './TechnicalSkills';
 
 const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
+
+  const [additionalInfo, setAdditionalInfo] = useState(false)
+
+  const handleClickAddInfo = () => {
+    if (additionalInfo === true) {
+      setAdditionalInfo(false)
+    }
+    else {
+      setAdditionalInfo(true)
+    }
+  }
 
   const handleClickCalPoly = () => {
     calRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -69,10 +84,22 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
           </div>
         </Reveal>
         <div className="home-body-right">
-          
+        
         </div>
       </div>
     </div>
+    <TechnicalSkills />
+    <Projects />
+      { additionalInfo ? <div className="additional-info-div">
+        <button className="additional-info-button"
+                onClick={() => {handleClickAddInfo()}}>Additional Information</button>
+                 <ArrowCircleDownIcon className="arrow-button" onClick={() => {handleClickAddInfo()}}/>
+          </div>
+            : <div className="additional-info-div"> <button className="additional-info-button"
+            onClick={() => {handleClickAddInfo()}}>Additional Information</button>
+              <ArrowCircleUpIcon className="arrow-button" onClick={() => {handleClickAddInfo()}}/>
+          </div> }
+      { additionalInfo ? 
         <div className="slider-container">
         { slideIndex === 0 ? null :
             <button className="arrow-left" onClick={leftHandleClick}><ArrowLeftOutlinedIcon /></button>}
@@ -109,9 +136,9 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
             </div>
         { slideIndex === 2 ? null :
             <button className="arrow-right" onClick={rightHandleClick}><ArrowRightOutlinedIcon /></button>}
-    </div>
-    <Education calRef={calRef} />
-    <WorkExperience mechRef={mechRef} fsRef={fsRef} />
+    </div> : null }
+    { additionalInfo ? <Education calRef={calRef} /> : null }
+    { additionalInfo ? <WorkExperience mechRef={mechRef} fsRef={fsRef} /> : null }
     <Contact contactRef={contactRef} />
   </div>
   )

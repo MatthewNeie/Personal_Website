@@ -16,7 +16,7 @@ const Education = ({calRef}) => {
                 </div>
                 <div className="education-calpoly-right">
                 <Reveal>
-                    <p>DEGREE: Bachelor of Science in Business Administration</p>
+                    <p>Bachelor of Science in Business Administration</p>
                 </Reveal>
                 <Reveal>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
