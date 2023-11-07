@@ -135,6 +135,16 @@ html, body {
   margin-top: 40px;
   border-top: solid white;
   margin-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-year {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer-social-media {
@@ -237,7 +247,6 @@ html, body {
   justify-content: center;
 }
 
-
                                 /* Home */
 
 .home-container {
@@ -326,7 +335,7 @@ html, body {
 
 .tech-skills-header {
   color: gold;
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -446,14 +455,88 @@ html, body {
 .projects-container {
   margin-left: 120px;
   background-color: #241244;
-  color: gold;
+  color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: solid black 2px;
+  height: 1100px;
 }
 
 .projects-header {
-  font-size: 50px;
+  font-size: 60px;
+  color: gold;
+  margin-bottom: 100px;
+}
+
+.projects-petstop-div {
+  height: 850px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.projects-petstop {
+  height: 850px;
+  display: flex;
+}
+
+.petstop-left {
+  height: 850px;
+  font-size: 24px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.petstop-right {
+  height: 850px;
+  width: 1000px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.petstop-right-header {
+  border: solid #971978 2px;
+  font-size: 22px;
+}
+
+.petstop-right-details {
+  display: flex;
+}
+
+.petstop-right-front-end {
+  border: solid #eee 2px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.petstop-right-back-end {
+  border: solid aqua 2px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.petstop-right-title {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.petstop-right-desc {
+  font-size: 24px;
+  line-height: 65px;
+}
+
+.petstop-image {
+  width: 900px;
 }
 
                                   /* Additional Info */

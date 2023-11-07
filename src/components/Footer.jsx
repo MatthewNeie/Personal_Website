@@ -14,7 +14,9 @@ const Footer = () => {
                 <div className="footer-contact-email"><EmailIcon />matneie@gmail.com</div>
             </div>
         </div>
-            <div className="footer-right"></div>
+            <div className="footer-right">
+              <div className="footer-year">2023</div>
+            </div>
     </div>
   )
 }

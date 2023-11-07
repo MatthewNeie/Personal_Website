@@ -5,7 +5,7 @@ import Reveal from './Reveal'
 const TechnicalSkills = () => {
   return (
     <div className="technical-skills-container">
-      <h1 className="tech-skills-header">TECHNICAL SKILLS</h1>
+      <h1 className="tech-skills-header">Technical Skills</h1>
         <div className="tech-skills-grid-div">
                 <ul className="tech-skills-list">
                     <Reveal>

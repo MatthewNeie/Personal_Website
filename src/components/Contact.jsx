@@ -14,43 +14,49 @@ const Contact = ({contactRef}) => {
                 I am currently looking for full-time employment in front-end or back-end web development.
                 I am eager to improve my technical skills with any opportunity I get.</p>
         </div>
+        <form action="https://formsubmit.co/matneie@gmail.com" method="POST">
             <div className="contact-form-top">
                 <label htmlFor="name"></label>
-                    <input
+                <input
                     className="name-input"
-                    type="name"
+                    type="text"
+                    name="name"
                     id="name"
                     placeholder="Name"
                     required />
-            <label htmlFor="email"></label>
-            <input
-                className="email-input"
-                type="email"
-                id="email"
-                placeholder="Email"
-                required />
-      </div>
-      <div className="contact-form-subject">
-            <label htmlFor="subject"></label>
-            <input
-                className="subject-input"
-                type="subject"
-                id="subject"
-                placeholder="Subject"
-                required />
-      </div>
-      <div className="contact-form-message">
-            <label htmlFor="message"></label>
-            <textarea
-                className="message-input"
-                type="message"
-                id="message"
-                placeholder="Message"
-                required />
-      </div>
-      <div className="contact-form-button-div">
-          <button className="contact-form-button">Send Message</button>
-      </div>
+                <label htmlFor="email"></label>
+                <input
+                    className="email-input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    required />
+        </div>
+        <div className="contact-form-subject">
+                <label htmlFor="subject"></label>
+                <input
+                    className="subject-input"
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required />
+        </div>
+        <div className="contact-form-message">
+                <label htmlFor="message"></label>
+                <textarea
+                    className="message-input"
+                    type="text"
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                    required />
+        </div>
+        <div className="contact-form-button-div">
+            <button type="submit" className="contact-form-button">Send Message</button>
+        </div>
+      </form>
       </Reveal>
     </div>
   )

@@ -126,7 +126,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
                 <div className="slide-fullstack">
                     <div className="slider-info-container-fullstack">
                         <h1 className="slider-info-container-title-fullstack">FULLSTACK ACADEMY</h1>
-                        <p className="slider-info-container-description">CERTIFICATE</p>
+                        <p className="slider-info-container-description">CERTIFICATE OF COMPLETION</p>
                         <button className="slider-info-container-button" onClick={handleClickFS} >DETAILS</button>
                     </div>
                     <div className="slider-right-container-fullstack">
