@@ -45,7 +45,7 @@ const rightHandleClick = () => {
                   </div>
                   <div className="petstop-right-desc">
                     <ul>
-                      <li>Guest accesss and user access</li>
+                      <li>Guest access and user access</li>
                       <li>Sort and filter products by price, name, and category</li>
                       <li>Add, edit, delete products</li>
                       <li>Add, edit, remove items from cart</li>

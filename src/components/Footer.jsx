@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
         </div>
             <div className="footer-right">
-              <div className="footer-year">2023</div>
+              <div className="footer-year">2024</div>
             </div>
     </div>
   )
