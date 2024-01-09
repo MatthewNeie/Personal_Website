@@ -43,7 +43,7 @@ const TechnicalSkills = () => {
             </div>
             <div className="five">
                 <RevealLogoCSS>
-                    <img src="./src/images/css-logo.png" className="css-image"/>
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" className="css-image"/>
                 </RevealLogoCSS>
             </div>
             <div className="six">
