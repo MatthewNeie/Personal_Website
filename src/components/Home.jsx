@@ -76,10 +76,10 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
         </Reveal>
       <br></br>
         <Reveal>
-            <p className="home-quote">"I have not failed. I've found 10,000 ways that won't work."</p>
+            <p className="home-quote"></p>
         </Reveal>
         <Reveal>
-            <p className="home-quote-author">-Thomas Edison</p>
+            <p className="home-quote-author"></p>
         </Reveal>
           </div>
         </Reveal>

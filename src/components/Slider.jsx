@@ -27,7 +27,6 @@ const Slider = () => {
             <button className="arrow-left" onClick={leftHandleClick}><ArrowLeftOutlinedIcon /></button>}
             <div className="slider-wrapper" style={styles}>
                 <div className="slide-calpoly">
-    
                     <div className="slider-info-container-calpoly">
                         <h1 className="slider-info-container-title">CALIFORNIA POLYTECHNIC STATE UNIVESIRY</h1>
                         <p className="slider-info-container-description">DEGREE: BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION</p>
