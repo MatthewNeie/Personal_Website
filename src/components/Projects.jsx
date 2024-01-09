@@ -24,15 +24,15 @@ const rightHandleClick = () => {
           <div className="petstop-left">
             <h1><ArrowCircleLeftIcon onClick={() => {leftHandleClick()}}/> PetStop <ArrowCircleRightIcon onClick={() => {rightHandleClick()}}/></h1>
             {count !== 0 ? null : <img src="https://i.imgur.com/GJZ4w1U.png" className="petstop-image" /> }
-            {count !== 1 ? null : <img src="./src/images/petstop-image-2.png" className="petstop-image" /> }
-            {count !== 2 ? null : <img src="./src/images/petstop-image-3.png" className="petstop-image" /> }
-            {count !== 3 ? null : <img src="./src/images/petstop-image-4.png" className="petstop-image" /> }
-            {count !== 4 ? null : <img src="./src/images/petstop-image-5.png" className="petstop-image" /> }
-            {count !== 5 ? null : <img src="./src/images/petstop-image-6.png" className="petstop-image" /> }
-            {count !== 6 ? null : <img src="./src/images/petstop-image-7.png" className="petstop-image" /> }
-            {count !== 7 ? null : <img src="./src/images/petstop-image-8.png" className="petstop-image" /> }
-            {count !== 8 ? null : <img src="./src/images/petstop-image-9.png" className="petstop-image" /> }
-            {count !== 9 ? null : <img src="./src/images/petstop-image-10.png" className="petstop-image" /> }
+            {count !== 1 ? null : <img src="https://i.imgur.com/xLi2zz6.png" className="petstop-image" /> }
+            {count !== 2 ? null : <img src="https://i.imgur.com/K7jmYfu.png" className="petstop-image" /> }
+            {count !== 3 ? null : <img src="https://i.imgur.com/Di2SQll.png" className="petstop-image" /> }
+            {count !== 4 ? null : <img src="https://i.imgur.com/edRjpYu.png" className="petstop-image" /> }
+            {count !== 5 ? null : <img src="https://i.imgur.com/jtocS5h.png" className="petstop-image" /> }
+            {count !== 6 ? null : <img src="https://i.imgur.com/9WEdY9f.png" className="petstop-image" /> }
+            {count !== 7 ? null : <img src="https://i.imgur.com/dfSVg4M.png" className="petstop-image" /> }
+            {count !== 8 ? null : <img src="https://i.imgur.com/g1ZvDEH.png" className="petstop-image" /> }
+            {count !== 9 ? null : <img src="https://i.imgur.com/BrC9Llf.png" className="petstop-image" /> }
           </div>
           <div className="petstop-right">
             <div className="petstop-right-header">

@@ -23,22 +23,22 @@ const TechnicalSkills = () => {
                 </ul>
             <div className="one">
                 <RevealLogo>
-                    <img src="./src/images/visual-studio-code-logo.png" className="vsc-image"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" className="vsc-image"/>
                 </RevealLogo>
             </div>
             <div className="two">
                 <RevealLogoGit>
-                    <img src="./src/images/git-logo.png" className="git-image" />
+                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" className="git-image" />
                 </RevealLogoGit>
             </div>
             <div className="three">
                 <RevealLogoReact>
-                    <img src="./src/images/React-logo.png" className="react-image"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" className="react-image"/>
                 </RevealLogoReact>
             </div>
             <div className="four">
                 <RevealLogoJS>
-                    <img src="./src/images/JavaScript-logo.png" className="java-image"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" className="java-image"/>
                 </RevealLogoJS>
             </div>
             <div className="five">
@@ -48,17 +48,17 @@ const TechnicalSkills = () => {
             </div>
             <div className="six">
                 <RevealLogoNodeJS>
-                    <img src="./src/images/nodejs-logo.png" className="nodejs-image"/>
+                    <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" className="nodejs-image"/>
                 </RevealLogoNodeJS>
             </div>
             <div className="seven">
                 <RevealLogoHTML>
-                    <img src="./src/images/html-logo.png" className="html-image"/>
+                    <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" className="html-image"/>
                 </RevealLogoHTML>
             </div>
             <div className="eight">
                 <RevealLogoSQL>
-                    <img src="./src/images/postgreSQL-logo.png" className="postgreSQL-image"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/800px-Postgresql_elephant.svg.png" className="postgreSQL-image"/>
                 </RevealLogoSQL>
             </div>
         </div>
