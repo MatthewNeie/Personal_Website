@@ -1613,7 +1613,7 @@ background-color: blue;
   }
   
   .petstop-image {
-    width: 700px;
+    width: 850px;
   }
   .slider-container {
     width: 92.4%;
@@ -1726,10 +1726,10 @@ background-color: blue;
   .projects-header {
     font-size: 40px;
     color: gold;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .projects-petstop-div {
-    height: 850px;
+    height: 1600px;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
@@ -1795,7 +1795,7 @@ background-color: blue;
   }
   
   .petstop-image {
-    width: 600px;
+    width: 750px;
   }
 }
 
