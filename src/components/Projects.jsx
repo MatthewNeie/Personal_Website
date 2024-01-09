@@ -23,7 +23,7 @@ const rightHandleClick = () => {
         <div className="projects-petstop-div">
           <div className="petstop-left">
             <h1><ArrowCircleLeftIcon onClick={() => {leftHandleClick()}}/> PetStop <ArrowCircleRightIcon onClick={() => {rightHandleClick()}}/></h1>
-            {count !== 0 ? null : <img src="./src/images/petstop-image-1.png" className="petstop-image" /> }
+            {count !== 0 ? null : <img src="https://photos.app.goo.gl/YaZGtQqEvJktUohu8" className="petstop-image" /> }
             {count !== 1 ? null : <img src="./src/images/petstop-image-2.png" className="petstop-image" /> }
             {count !== 2 ? null : <img src="./src/images/petstop-image-3.png" className="petstop-image" /> }
             {count !== 3 ? null : <img src="./src/images/petstop-image-4.png" className="petstop-image" /> }
