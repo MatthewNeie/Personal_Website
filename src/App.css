@@ -1559,9 +1559,9 @@ background-color: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     border: solid black 2px;
-    height: 1700px;
+    height: 1800px;
   }
 
   .projects-header {
