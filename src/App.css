@@ -74,13 +74,13 @@ html, body {
 
 .sidebar-logo-container-name {
   font-size: 25px;
-  color: #241244;
-  -webkit-text-stroke: .5px gold;
+  color: white;
 }
 
 .sidebar-nav-container {
   flex: 1;
   font-size: 50px;
+  margin-bottom: 150px;
 }
 
 .sidebar-links-container {
