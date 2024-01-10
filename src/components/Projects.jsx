@@ -3,7 +3,7 @@ import { useState } from 'react'
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
-const Projects = () => {
+const Projects = ({projectRef}) => {
 
   const [ count, setCount ] = useState(0)
 
@@ -18,7 +18,7 @@ const rightHandleClick = () => {
 
 
   return (
-    <div className="projects-container">
+    <div className="projects-container" ref={projectRef}>
       <h1 className="projects-header">Projects</h1>
         <div className="projects-petstop-div">
           <div className="petstop-left">

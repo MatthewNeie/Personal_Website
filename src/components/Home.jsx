@@ -13,7 +13,7 @@ import Reveal from './Reveal';
 import Projects from './Projects';
 import TechnicalSkills from './TechnicalSkills';
 
-const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
+const Home = ({calRef, mechRef, fsRef, homeRef, techRef, projectRef, contactRef}) => {
 
   const [additionalInfo, setAdditionalInfo] = useState(false)
 
@@ -54,7 +54,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
 
   return (
   <div>
-    <Sidebar homeRef={homeRef} contactRef={contactRef}/>
+    <Sidebar homeRef={homeRef} techRef={techRef} projectRef={projectRef} contactRef={contactRef}/>
     <div className="home-container" ref = {homeRef} >
       <div className="home-body">
         <Reveal>
@@ -88,8 +88,8 @@ const Home = ({calRef, mechRef, fsRef, homeRef, contactRef}) => {
         </div>
       </div>
     </div>
-    <TechnicalSkills />
-    <Projects />
+    <TechnicalSkills techRef={techRef}/>
+    <Projects projectRef={projectRef}/>
       { additionalInfo ? <div className="additional-info-div">
         <button className="additional-info-button"
                 onClick={() => {handleClickAddInfo()}}>Additional Information</button>

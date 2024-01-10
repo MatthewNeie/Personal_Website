@@ -21,6 +21,10 @@ function App() {
 
   const homeRef = useRef(null);
 
+  const techRef = useRef(null);
+
+  const projectRef = useRef(null);
+
   const contactRef = useRef(null);
 
   return (
@@ -30,6 +34,8 @@ function App() {
                                               mechRef={mechRef}
                                               fsRef={fsRef}
                                               homeRef={homeRef}
+                                              techRef={techRef}
+                                              projectRef={projectRef}
                                               contactRef={contactRef} />} />
               {/* <Route path="*" element={<ErrorPage />} /> */}
           </Routes>

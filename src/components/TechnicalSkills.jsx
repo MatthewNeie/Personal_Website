@@ -2,9 +2,9 @@ import React from 'react'
 import RevealLogo, { RevealLogoCSS, RevealLogoGit, RevealLogoHTML, RevealLogoJS, RevealLogoNodeJS, RevealLogoReact, RevealLogoSQL } from './RevealLogo'
 import Reveal from './Reveal'
 
-const TechnicalSkills = () => {
+const TechnicalSkills = ({techRef}) => {
   return (
-    <div className="technical-skills-container">
+    <div className="technical-skills-container" ref={techRef} >
       <h1 className="tech-skills-header">Technical Skills</h1>
         <div className="tech-skills-grid-div">
                 <ul className="tech-skills-list">

@@ -3,10 +3,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHome, faUser, faGears, faDiagramProject } from '@fortawesome/free-solid-svg-icons';
 import Cube from './Cube';
 
-const Sidebar = ({homeRef, contactRef}) => {
+const Sidebar = ({homeRef, techRef, projectRef, contactRef}) => {
 
     const handleClickContact = () => {
         contactRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -14,6 +14,14 @@ const Sidebar = ({homeRef, contactRef}) => {
 
     const handleClickHome = () => {
         homeRef.current?.scrollIntoView({ behavior: 'smooth' });
+      };
+
+    const handleClickTech = () => {
+        techRef.current?.scrollIntoView({ behavior: 'smooth' });
+      };
+
+    const handleClickProjects = () => {
+        projectRef.current?.scrollIntoView({ behavior: 'smooth' });
       };
 
       window.addEventListener('scroll', () => {
@@ -30,7 +38,10 @@ const Sidebar = ({homeRef, contactRef}) => {
             <FontAwesomeIcon className="sidebar-home-icon" onClick={handleClickHome} icon={faHome} color="grey"/>
         </div>
         <div className="sidebar-profile-icon2">
-            <FontAwesomeIcon className="sidebar-profile-icon" icon={faUser} color="grey" />
+            <FontAwesomeIcon className="sidebar-profile-icon" onClick={handleClickTech} icon={faGears} color="grey" />
+        </div>
+        <div className="sidebar-profile-icon2">
+            <FontAwesomeIcon className="sidebar-profile-icon" onClick={handleClickProjects} icon={faDiagramProject} color="grey" />
         </div>
         <div className="sidebar-contact-icon2">
             <FontAwesomeIcon className="sidebar-profile-icon" onClick={handleClickContact} icon={faEnvelope} color="grey" />
