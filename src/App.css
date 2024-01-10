@@ -1748,6 +1748,17 @@ background-color: blue;
   .nodejs-image {
     height: 100px;
   }
+  .projects-container {
+    margin-left: 120px;
+    background-color: #241244;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border: solid black 2px;
+    height: 1800px;
+  }
   .projects-header {
     font-size: 40px;
     color: gold;
@@ -1874,6 +1885,91 @@ background-color: blue;
   }
   .nodejs-image {
     height: 125px;
+  }
+  .projects-container {
+    margin-left: 120px;
+    background-color: #241244;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border: solid black 2px;
+    height: 1800px;
+  }
+  .projects-header {
+    font-size: 40px;
+    color: gold;
+    margin-bottom: 50px;
+  }
+  .projects-petstop-div {
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .projects-petstop {
+    height: 850px;
+    display: flex;
+  }
+  
+  .petstop-left {
+    height: 850px;
+    font-size: 18px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .petstop-right {
+    height: 850px;
+    width: 1000px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .petstop-right-header {
+    border: solid #971978 2px;
+    font-size: 18px;
+  }
+  
+  .petstop-right-details {
+    display: flex;
+  }
+  
+  .petstop-right-front-end {
+    border: solid #eee 2px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+  
+  .petstop-right-back-end {
+    border: solid aqua 2px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+  
+  .petstop-right-title {
+    text-align: center;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+  
+  .petstop-right-desc {
+    font-size: 22px;
+    line-height: 65px;
+  }
+  
+  .petstop-image {
+    width: 750px;
   }
 }
 
