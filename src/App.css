@@ -249,11 +249,6 @@ html, body {
 
                                 /* Home */
 
-.home-flex-direction {
-  display: flex;
-  flex-direction: column;
-}
-
 .home-container {
   background-color: #241244;
   position: relative;
@@ -470,6 +465,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: start;
+  height: 2100px;
 }
 
 .projects-header {
@@ -1308,6 +1304,16 @@ body {
     font-size: 14px;
     height: 700px;
   }
+  .projects-container {
+    margin-left: 120px;
+    background-color: #241244;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2100px;
+  }
 }                                        
 
 @media (min-width: 1281px) and (max-width: 1600px) {
@@ -1321,11 +1327,31 @@ body {
     text-align: center;
     justify-content: center;
   }
+  .projects-container {
+    margin-left: 120px;
+    background-color: #241244;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2100px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .home-container {
     background-color: #241244;
+  }
+  .projects-container {
+    margin-left: 120px;
+    background-color: #241244;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2100px;
   }
 }
 
@@ -1333,17 +1359,47 @@ body {
   .home-container {
     background-color: #241244;
   }
+  .projects-container {
+    margin-left: 120px;
+    background-color: #241244;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2100px;
+  }
 }
 
 @media (max-width: 800px) {
   .home-container {
     background-color: #241244;
   }
+  .projects-container {
+    margin-left: 120px;
+    background-color: #241244;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2100px;
+  }
 }
 
 @media (max-width: 736px) {
   .home-container {
 background-color: #241244;
+  }
+  .projects-container {
+    margin-left: 120px;
+    background-color: #241244;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2100px;
   }
 }
 
@@ -1409,7 +1465,7 @@ background-color: #241244;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 1100px;
+    height: 2100px;
   }
 
   .projects-header {
@@ -1569,7 +1625,7 @@ background-color: #241244;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    height: 1800px;
+    height: 2100px;
   }
 
   .projects-header {
@@ -1764,7 +1820,7 @@ background-color: #241244;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    height: 1800px;
+    height: 2100px;
   }
   .projects-header {
     font-size: 40px;
@@ -1901,7 +1957,7 @@ background-color: #241244;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    height: 1800px;
+    height: 2100px;
   }
   .projects-header {
     font-size: 40px;

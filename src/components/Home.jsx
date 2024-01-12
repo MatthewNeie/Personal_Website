@@ -55,7 +55,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef, techRef, projectRef, contactRef}
   return (
   <div>
     <Sidebar homeRef={homeRef} techRef={techRef} projectRef={projectRef} contactRef={contactRef}/>
-    <div className="home-flex-direction">
+    <div>
       <div className="home-container" ref = {homeRef} >
         <div className="home-body">
           <Reveal>
