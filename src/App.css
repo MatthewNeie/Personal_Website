@@ -478,12 +478,14 @@ html, body {
   height: 850px;
   display: flex;
   flex-direction: column;
+  justify-content: start;
   margin-bottom: 50px;
 }
 
 .projects-petstop {
   height: 850px;
   display: flex;
+  justify-content: start;
 }
 
 .petstop-left {
