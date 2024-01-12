@@ -34,7 +34,10 @@ const rightHandleClick = () => {
             {count !== 7 ? null : <img src="https://i.imgur.com/dfSVg4M.png" className="petstop-image" /> }
             {count !== 8 ? null : <img src="https://i.imgur.com/g1ZvDEH.png" className="petstop-image" /> }
             {count !== 9 ? null : <img src="https://i.imgur.com/BrC9Llf.png" className="petstop-image" /> }
-            <p><ArrowCircleLeftIcon onClick={() => {leftHandleClick()}}/> <ArrowCircleRightIcon onClick={() => {rightHandleClick()}}/></p>
+            <p>
+                <ArrowCircleLeftIcon onClick={() => {leftHandleClick()}}/>
+                <ArrowCircleRightIcon onClick={() => {rightHandleClick()}}/>
+            </p>
             <a href="https://github.com/MatthewNeie/PetStop" className="footer-icons"><GitHubIcon /> GitHub </a>
           </div>
           <div className="petstop-right">

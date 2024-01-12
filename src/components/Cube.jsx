@@ -74,7 +74,7 @@ const Cube = () => {
                     </div>
             </div>
             </div>
-            <h1 className="sidebar-logo-container-name">Matthew Neie</h1>
+            {/* <h1 className="sidebar-logo-container-name">Matthew Neie</h1> */}
     </div>
   )
 }
