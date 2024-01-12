@@ -55,87 +55,89 @@ const Home = ({calRef, mechRef, fsRef, homeRef, techRef, projectRef, contactRef}
   return (
   <div>
     <Sidebar homeRef={homeRef} techRef={techRef} projectRef={projectRef} contactRef={contactRef}/>
-    <div className="home-container" ref = {homeRef} >
-      <div className="home-body">
-        <Reveal>
-            <div className="home-body-left">
+    <div className="home-flex-direction">
+      <div className="home-container" ref = {homeRef} >
+        <div className="home-body">
           <Reveal>
-            <h1 className="home-name">Matthew Neie</h1>
+              <div className="home-body-left">
+            <Reveal>
+              <h1 className="home-name">Matthew Neie</h1>
+            </Reveal>
+            <Reveal>
+              <h1 className="home-title"> FullStack Web Developer </h1>
+            </Reveal>
+            <Reveal>
+              <p className="home-description">I am interested in developing web projects and freelance opportunities.
+                  I am currently looking for full-time employment in front-end or back-end web development.
+                  I am eager to improve my technical skills with any opportunity I get.</p>
+          </Reveal>
+        <br></br>
+          <Reveal>
+              <p className="home-quote"></p>
           </Reveal>
           <Reveal>
-            <h1 className="home-title"> FullStack Web Developer </h1>
+              <p className="home-quote-author"></p>
           </Reveal>
-          <Reveal>
-            <p className="home-description">I am interested in developing web projects and freelance opportunities.
-                I am currently looking for full-time employment in front-end or back-end web development.
-                I am eager to improve my technical skills with any opportunity I get.</p>
-        </Reveal>
-      <br></br>
-        <Reveal>
-            <p className="home-quote"></p>
-        </Reveal>
-        <Reveal>
-            <p className="home-quote-author"></p>
-        </Reveal>
+            </div>
+          </Reveal>
+          <div className="home-body-right">
+          
           </div>
-        </Reveal>
-        <div className="home-body-right">
-        
         </div>
       </div>
-    </div>
-    <TechnicalSkills techRef={techRef}/>
-    <Projects projectRef={projectRef}/>
-      {/* { additionalInfo ? <div className="additional-info-div">
-        <button className="additional-info-button"
-                onClick={() => {handleClickAddInfo()}}>Additional Information</button>
-                 <ArrowCircleDownIcon className="arrow-button" onClick={() => {handleClickAddInfo()}}/>
-          </div>
-            : <div className="additional-info-div"> <button className="additional-info-button"
-            onClick={() => {handleClickAddInfo()}}>Additional Information</button>
-              <ArrowCircleUpIcon className="arrow-button" onClick={() => {handleClickAddInfo()}}/>
-          </div> } */}
-      { additionalInfo ? 
-        <div className="slider-container">
-        { slideIndex === 0 ? null :
-            <button className="arrow-left" onClick={leftHandleClick}><ArrowLeftOutlinedIcon /></button>}
-            <div className="slider-wrapper" style={styles}>
-                <div className="slide-calpoly">
-    
-                    <div className="slider-info-container-calpoly">
-                        <h1 className="slider-info-container-title">CALIFORNIA POLYTECHNIC STATE UNIVESIRY</h1>
-                        <p className="slider-info-container-description">DEGREE: BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION</p>
-                        <button className="slider-info-container-button" onClick={handleClickCalPoly} >DETAILS</button>
-                    </div>
-                    <div className="slider-quote-container-calpoly">
-                  </div>
-                </div>
-                <div className="slide-mechanics-bank">
-                    <div className="slider-info-container-mechanics-bank">
-                        <h1 className="slider-info-container-title">MECHANICS BANK</h1>
-                        <p className="slider-info-container-description">UNIVERSAL BANKER</p>
-                        <button className="slider-info-container-button" onClick={handleClickMech} >DETAILS</button>
-                    </div>
-                    <div className="slider-quote-container-mechanics-bank">
-                    </div>
-                </div>
-                <div className="slide-fullstack">
-                    <div className="slider-info-container-fullstack">
-                        <h1 className="slider-info-container-title-fullstack">FULLSTACK ACADEMY</h1>
-                        <p className="slider-info-container-description">CERTIFICATE OF WEB DEVELOPMENT</p>
-                        <button className="slider-info-container-button" onClick={handleClickFS} >DETAILS</button>
-                    </div>
-                    <div className="slider-right-container-fullstack">
-                        
-                    </div>
-                </div>
+      <TechnicalSkills techRef={techRef}/>
+      <Projects projectRef={projectRef}/>
+        {/* { additionalInfo ? <div className="additional-info-div">
+          <button className="additional-info-button"
+                  onClick={() => {handleClickAddInfo()}}>Additional Information</button>
+                  <ArrowCircleDownIcon className="arrow-button" onClick={() => {handleClickAddInfo()}}/>
             </div>
-        { slideIndex === 2 ? null :
-            <button className="arrow-right" onClick={rightHandleClick}><ArrowRightOutlinedIcon /></button>}
-    </div> : null }
-    { additionalInfo ? <Education calRef={calRef} /> : null }
-    { additionalInfo ? <WorkExperience mechRef={mechRef} fsRef={fsRef} /> : null }
-    <Contact contactRef={contactRef} />
+              : <div className="additional-info-div"> <button className="additional-info-button"
+              onClick={() => {handleClickAddInfo()}}>Additional Information</button>
+                <ArrowCircleUpIcon className="arrow-button" onClick={() => {handleClickAddInfo()}}/>
+            </div> } */}
+        { additionalInfo ? 
+          <div className="slider-container">
+          { slideIndex === 0 ? null :
+              <button className="arrow-left" onClick={leftHandleClick}><ArrowLeftOutlinedIcon /></button>}
+              <div className="slider-wrapper" style={styles}>
+                  <div className="slide-calpoly">
+      
+                      <div className="slider-info-container-calpoly">
+                          <h1 className="slider-info-container-title">CALIFORNIA POLYTECHNIC STATE UNIVESIRY</h1>
+                          <p className="slider-info-container-description">DEGREE: BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION</p>
+                          <button className="slider-info-container-button" onClick={handleClickCalPoly} >DETAILS</button>
+                      </div>
+                      <div className="slider-quote-container-calpoly">
+                    </div>
+                  </div>
+                  <div className="slide-mechanics-bank">
+                      <div className="slider-info-container-mechanics-bank">
+                          <h1 className="slider-info-container-title">MECHANICS BANK</h1>
+                          <p className="slider-info-container-description">UNIVERSAL BANKER</p>
+                          <button className="slider-info-container-button" onClick={handleClickMech} >DETAILS</button>
+                      </div>
+                      <div className="slider-quote-container-mechanics-bank">
+                      </div>
+                  </div>
+                  <div className="slide-fullstack">
+                      <div className="slider-info-container-fullstack">
+                          <h1 className="slider-info-container-title-fullstack">FULLSTACK ACADEMY</h1>
+                          <p className="slider-info-container-description">CERTIFICATE OF WEB DEVELOPMENT</p>
+                          <button className="slider-info-container-button" onClick={handleClickFS} >DETAILS</button>
+                      </div>
+                      <div className="slider-right-container-fullstack">
+                          
+                      </div>
+                  </div>
+              </div>
+          { slideIndex === 2 ? null :
+              <button className="arrow-right" onClick={rightHandleClick}><ArrowRightOutlinedIcon /></button>}
+      </div> : null }
+      { additionalInfo ? <Education calRef={calRef} /> : null }
+      { additionalInfo ? <WorkExperience mechRef={mechRef} fsRef={fsRef} /> : null }
+      <Contact contactRef={contactRef} />
+    </div>
   </div>
   )
 }

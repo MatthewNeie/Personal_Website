@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub';
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
@@ -34,7 +35,7 @@ const rightHandleClick = () => {
             {count !== 8 ? null : <img src="https://i.imgur.com/g1ZvDEH.png" className="petstop-image" /> }
             {count !== 9 ? null : <img src="https://i.imgur.com/BrC9Llf.png" className="petstop-image" /> }
             <p><ArrowCircleLeftIcon onClick={() => {leftHandleClick()}}/> <ArrowCircleRightIcon onClick={() => {rightHandleClick()}}/></p>
-            <a href="https://github.com/MatthewNeie/PetStop"> https://github.com/MatthewNeie/PetStop </a>
+            <a href="https://github.com/MatthewNeie/PetStop" className="footer-icons"><GitHubIcon /> GitHub </a>
           </div>
           <div className="petstop-right">
             <div className="petstop-right-header">

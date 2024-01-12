@@ -249,6 +249,11 @@ html, body {
 
                                 /* Home */
 
+.home-flex-direction {
+  display: flex;
+  flex-direction: column;
+}
+
 .home-container {
   background-color: #241244;
   position: relative;
@@ -268,7 +273,7 @@ html, body {
   flex: 1;
   width: 75%;
   letter-spacing: 5px;
-  line-height: 30px;
+  line-height: 50px;
   margin-left: 75px;
   margin-top: 200px;
 }
@@ -1308,7 +1313,7 @@ body {
 
 @media (min-width: 1281px) and (max-width: 1600px) {
   .home-container {
-    background-color: coral;
+    background-color: #241244;
   }
   .home-body-right {
     margin-top: 200px;
@@ -1321,25 +1326,25 @@ body {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .home-container {
-    background-color: orange;
+    background-color: #241244;
   }
 }
 
 @media (max-width: 900px) {
   .home-container {
-    background-color: yellow;
+    background-color: #241244;
   }
 }
 
 @media (max-width: 800px) {
   .home-container {
-    background-color: green;
+    background-color: #241244;
   }
 }
 
 @media (max-width: 736px) {
   .home-container {
-background-color: blue;
+background-color: #241244;
   }
 }
 
@@ -1841,13 +1846,13 @@ background-color: blue;
 @media (max-height: 768px) {
   .home-container {
     height: 752px;
-    font-size: 8px;
+    font-size: 12px;
   }
   .home-body {
     margin-bottom: 200px;
   }
   .home-body-left {
-    line-height: 20px;
+    line-height: 40px;
   }
   .home-body-right {
     height: 250px;
