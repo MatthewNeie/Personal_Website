@@ -90,7 +90,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef, techRef, projectRef, contactRef}
     </div>
     <TechnicalSkills techRef={techRef}/>
     <Projects projectRef={projectRef}/>
-      { additionalInfo ? <div className="additional-info-div">
+      {/* { additionalInfo ? <div className="additional-info-div">
         <button className="additional-info-button"
                 onClick={() => {handleClickAddInfo()}}>Additional Information</button>
                  <ArrowCircleDownIcon className="arrow-button" onClick={() => {handleClickAddInfo()}}/>
@@ -98,7 +98,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef, techRef, projectRef, contactRef}
             : <div className="additional-info-div"> <button className="additional-info-button"
             onClick={() => {handleClickAddInfo()}}>Additional Information</button>
               <ArrowCircleUpIcon className="arrow-button" onClick={() => {handleClickAddInfo()}}/>
-          </div> }
+          </div> } */}
       { additionalInfo ? 
         <div className="slider-container">
         { slideIndex === 0 ? null :

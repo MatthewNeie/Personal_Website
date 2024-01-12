@@ -22,7 +22,7 @@ const rightHandleClick = () => {
       <h1 className="projects-header">Projects</h1>
         <div className="projects-petstop-div">
           <div className="petstop-left">
-            <h1><ArrowCircleLeftIcon onClick={() => {leftHandleClick()}}/> PetStop <ArrowCircleRightIcon onClick={() => {rightHandleClick()}}/></h1>
+            <h1> PetStop </h1>
             {count !== 0 ? null : <img src="https://i.imgur.com/GJZ4w1U.png" className="petstop-image" /> }
             {count !== 1 ? null : <img src="https://i.imgur.com/xLi2zz6.png" className="petstop-image" /> }
             {count !== 2 ? null : <img src="https://i.imgur.com/K7jmYfu.png" className="petstop-image" /> }
@@ -33,6 +33,8 @@ const rightHandleClick = () => {
             {count !== 7 ? null : <img src="https://i.imgur.com/dfSVg4M.png" className="petstop-image" /> }
             {count !== 8 ? null : <img src="https://i.imgur.com/g1ZvDEH.png" className="petstop-image" /> }
             {count !== 9 ? null : <img src="https://i.imgur.com/BrC9Llf.png" className="petstop-image" /> }
+            <p><ArrowCircleLeftIcon onClick={() => {leftHandleClick()}}/> <ArrowCircleRightIcon onClick={() => {rightHandleClick()}}/></p>
+            <a href="https://github.com/MatthewNeie/PetStop"> https://github.com/MatthewNeie/PetStop </a>
           </div>
           <div className="petstop-right">
             <div className="petstop-right-header">
