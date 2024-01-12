@@ -1311,8 +1311,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 2100px;
+    justify-content: start;
+    height: 1800px;
   }
 }                                        
 
@@ -1334,8 +1334,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 2100px;
+    justify-content: start;
+    height: 1800px;
   }
 }
 
@@ -1350,8 +1350,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 2100px;
+    justify-content: start;
+    height: 1800px;
   }
 }
 
@@ -1366,8 +1366,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 2100px;
+    justify-content: start;
+    height: 1800px;
   }
 }
 
@@ -1382,8 +1382,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 2100px;
+    justify-content: start;
+    height: 1800px;
   }
 }
 
@@ -1398,8 +1398,8 @@ background-color: #241244;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 2100px;
+    justify-content: start;
+    height: 1800px;
   }
 }
 
