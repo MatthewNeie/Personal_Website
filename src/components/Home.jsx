@@ -63,16 +63,12 @@ const Home = ({calRef, mechRef, fsRef, homeRef, techRef, projectRef, contactRef}
             <h1 className="home-name">Matthew Neie</h1>
           </Reveal>
           <Reveal>
-            <p className="home-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed luctus, lacus id tincidunt fringilla, sem mauris laoreet sapien, vitae porttitor quam risus et purus.
-        Morbi eget varius nibh. In pretium ipsum ac pulvinar ullamcorper.
-        Curabitur at dolor facilisis, varius mauris vitae, porta tellus.
-        Integer posuere nisi ut felis semper lobortis.
-        Cras iaculis nibh sit amet massa interdum, id tincidunt enim suscipit. Duis in ex neque.
-        Mauris placerat sodales finibus. Proin risus libero, porta eu suscipit eu, mattis in mauris.
-        Ut dignissim varius felis nec ultrices. In pretium ipsum ac pulvinar ullamcorper.
-        Curabitur at dolor facilisis, varius mauris vitae, porta tellus.
-        Integer posuere nisi ut felis semper lobortis.</p>
+            <h1 className="home-title"> FullStack Web Developer </h1>
+          </Reveal>
+          <Reveal>
+            <p className="home-description">I am interested in developing web projects and freelance opportunities.
+                I am currently looking for full-time employment in front-end or back-end web development.
+                I am eager to improve my technical skills with any opportunity I get.</p>
         </Reveal>
       <br></br>
         <Reveal>

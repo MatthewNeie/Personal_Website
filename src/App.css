@@ -295,18 +295,23 @@ html, body {
 }
 
 .home-name {
-  font-size: 3rem;
+  font-size: 5rem;
+  color: gold;
 }
 
-.home-name:hover {
+/* .home-name:hover {
   font-size: 4rem;
   transition: 1s ease;
   color: gold;
   cursor: default;
+} */
+
+.home-title {
+  font-size: 3.5rem;
 }
 
 .home-description {
-  font-size: 150%;
+  font-size: 200%;
   font-family: 'Times New Roman';
 }
 
@@ -459,8 +464,8 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 1100px;
+  justify-content: start;
+  height: 1400px;
 }
 
 .projects-header {
@@ -472,6 +477,7 @@ html, body {
 .projects-petstop-div {
   height: 850px;
   display: flex;
+  flex-direction: column;
   margin-bottom: 50px;
 }
 
@@ -487,6 +493,7 @@ html, body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .petstop-right {
