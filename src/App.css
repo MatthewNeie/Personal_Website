@@ -1313,6 +1313,7 @@ body {
     align-items: center;
     justify-content: start;
     height: 1800px;
+    border: solid black 2px;
   }
 }                                        
 
@@ -1336,6 +1337,7 @@ body {
     align-items: center;
     justify-content: start;
     height: 1800px;
+    border: solid yellow 2px;
   }
 }
 
@@ -1352,6 +1354,7 @@ body {
     align-items: center;
     justify-content: start;
     height: 1800px;
+    border: solid cyan 2px;
   }
 }
 
@@ -1368,6 +1371,7 @@ body {
     align-items: center;
     justify-content: start;
     height: 1800px;
+    border: solid lime 2px;
   }
 }
 
@@ -1384,6 +1388,7 @@ body {
     align-items: center;
     justify-content: start;
     height: 1800px;
+    border: solid violet 2px;
   }
 }
 
@@ -1400,6 +1405,7 @@ background-color: #241244;
     align-items: center;
     justify-content: start;
     height: 1800px;
+    border: solid burlywood 2px;
   }
 }
 
