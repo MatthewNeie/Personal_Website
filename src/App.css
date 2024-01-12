@@ -1314,8 +1314,85 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    height: 1800px;
-    border: solid black 2px;
+  }
+  .projects-header {
+    font-size: 60px;
+    color: gold;
+    margin-bottom: 100px;
+  }
+  
+  .projects-petstop-div {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 200px;
+  }
+  
+  .projects-petstop {
+    height: 850px;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .petstop-left {
+    height: 850px;
+    font-size: 24px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+  
+  .petstop-right {
+    height: 850px;
+    width: 1000px;
+    flex: 1;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+  }
+  
+  .petstop-right-header {
+    border: solid #971978 2px;
+    font-size: 22px;
+  }
+  
+  .petstop-right-details {
+    display: flex;
+  }
+  
+  .petstop-right-front-end {
+    border: solid #eee 2px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+  
+  .petstop-right-back-end {
+    border: solid aqua 2px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+  
+  .petstop-right-title {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .petstop-right-desc {
+    font-size: 24px;
+    line-height: 65px;
+  }
+  
+  .petstop-image {
+    width: 900px;
   }
 }                                        
 
