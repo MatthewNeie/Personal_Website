@@ -1395,6 +1395,13 @@ body {
   .petstop-image {
     width: 900px;
   }
+  .contact-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+  }
 }                                        
 
 @media (min-width: 1281px) and (max-width: 1600px) {
