@@ -1306,8 +1306,16 @@ body {
     font-size: 14px;
     height: 700px;
   }
+  .home-body-left {
+    flex: 1;
+    width: 75%;
+    letter-spacing: 5px;
+    line-height: 20px;
+    margin-left: 75px;
+    margin-top: 200px;
+  }
   .home-description {
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Times New Roman';
   }
   .projects-container {

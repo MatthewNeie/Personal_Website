@@ -70,7 +70,7 @@ const Home = ({calRef, mechRef, fsRef, homeRef, techRef, projectRef, contactRef}
               <p className="home-description">I am a full stack web developer and recently completed a full stack web development bootcamp.
               I am interested in developing my skills and adding projects to my portfolio by taking on freelance projects or working on projects with other developers.
               I am interested in part-time or full time employment opportunities, as well as internships or apprenticeships.
-              Please feel free to contact me by utilizing my contact form. </p>
+              Please feel free to contact me by completing my contact form. </p>
           </Reveal>
         <br></br>
           <Reveal>
