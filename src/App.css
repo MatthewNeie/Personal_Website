@@ -1319,7 +1319,8 @@ body {
   .projects-header {
     font-size: 60px;
     color: gold;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    display: flex;
     justify-content: start;
   }
   

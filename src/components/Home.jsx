@@ -67,9 +67,10 @@ const Home = ({calRef, mechRef, fsRef, homeRef, techRef, projectRef, contactRef}
               <h1 className="home-title"> FullStack Web Developer </h1>
             </Reveal>
             <Reveal>
-              <p className="home-description">I am interested in developing web projects and freelance opportunities.
-                  I am currently looking for full-time employment in front-end or back-end web development.
-                  I am eager to improve my technical skills with any opportunity I get.</p>
+              <p className="home-description">I am a full stack web developer and recently completed a full stack web development bootcamp.
+              I am interested in developing my skills and adding projects to my portfolio by taking on freelance projects or working on projects with other developers with their projects.
+              I am interested in part-time or full time employment opportunities, as well as internships or apprenticeships.
+              Please feel free to contact me by utilizing my contact form. </p>
           </Reveal>
         <br></br>
           <Reveal>
