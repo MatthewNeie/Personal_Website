@@ -1306,6 +1306,10 @@ body {
     font-size: 14px;
     height: 700px;
   }
+  .home-description {
+    font-size: 10px;
+    font-family: 'Times New Roman';
+  }
   .projects-container {
     margin-left: 120px;
     background-color: #241244;
@@ -1314,7 +1318,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    height: 1000px;
+    height: 100px;
   }
   .projects-header {
     font-size: 60px;

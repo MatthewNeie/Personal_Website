@@ -3,6 +3,7 @@ import { useState } from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import Reveal from './Reveal'
 
 const Projects = ({projectRef}) => {
 
@@ -20,8 +21,11 @@ const rightHandleClick = () => {
 
   return (
     <div className="projects-container" ref={projectRef}>
+      <Reveal>
       <h1 className="projects-header">Projects</h1>
+      </Reveal>
         <div className="projects-petstop-div">
+        <Reveal>
           <div className="petstop-left">
             <h1> PetStop </h1>
             {count !== 0 ? null : <img src="https://i.imgur.com/GJZ4w1U.png" className="petstop-image" /> }
@@ -40,6 +44,8 @@ const rightHandleClick = () => {
             </p>
             <a href="https://github.com/MatthewNeie/PetStop" className="footer-icons"><GitHubIcon /> GitHub </a>
           </div>
+          </Reveal>
+          <Reveal>
           <div className="petstop-right">
             <div className="petstop-right-header">
               <h1>FullStack Web Application</h1>
@@ -75,6 +81,7 @@ const rightHandleClick = () => {
               </div>
             </div>
           </div>
+          </Reveal>
         </div>
       </div>
   )
