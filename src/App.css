@@ -1310,12 +1310,12 @@ body {
     flex: 1;
     width: 75%;
     letter-spacing: 5px;
-    line-height: 20px;
+    line-height: 35px;
     margin-left: 75px;
     margin-top: 200px;
   }
   .home-description {
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Times New Roman';
   }
   .projects-container {
