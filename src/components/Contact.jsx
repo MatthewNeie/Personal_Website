@@ -10,9 +10,9 @@ const Contact = ({contactRef}) => {
         <Reveal>
         <div className="contact-title-container">
             <h1 className="contact-header">Contact me</h1>
-            <p className="contact-desc">I am interested in developing web projects and freelance opportunities.
+            {/* <p className="contact-desc">I am interested in developing web projects and freelance opportunities.
                   I am currently looking for full-time employment in front-end or back-end web development.
-                  I am eager to improve my technical skills with any opportunity I get.</p>
+                  I am eager to improve my technical skills with any opportunity I get.</p> */}
         </div>
         <form action="https://formsubmit.co/matneie@gmail.com" method="POST">
             <div className="contact-form-top">
