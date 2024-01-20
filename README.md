@@ -6,7 +6,7 @@ My website showcases my ability to use React, HTML, CSS, and JavaScript.
 
 My website uses animations, transitions, links, and a contact form.
 
-The sidebar on my website contains useRefs for navigation, and links to my GitHhub, LinkedIn, and Facebook.
+The sidebar on my website contains useRefs for navigation, and links to my GitHub, LinkedIn, and Facebook.
 
 The contact form sends a message to my email with the information provided.
 
