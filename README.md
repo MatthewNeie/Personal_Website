@@ -15,8 +15,8 @@ The contact form sends a message to my email with the information provided.
 If you want to run my application from GitHub, follow these steps:
 
   1. clone repository
-  2. Run #RRGGBB npm install
-  3. Run #RRGGBB npm run dev
+  2. Run * npm install *
+  3. Run * npm run dev *
 
 Otherwise, here is a link to my deployed website:
 
