@@ -22,4 +22,4 @@ If you would like to run my application from GitHub, follow these steps:
 
 Here is a link to my deployed website:
 
-[(matthew-neie.netlify.app)]
+[ (matthew-neie.netlify.app) ]
