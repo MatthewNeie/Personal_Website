@@ -12,12 +12,14 @@ The sidebar on my website contains useRefs for navigation, and links to my GitHu
 
 The contact form sends a message to my email with the information provided.
 
-If you want to run my application from GitHub, follow these steps:
+## **Run My Application**
+
+If you would like to run my application from GitHub, follow these steps:
 
   1. clone repository
   2. Run *npm install*
   3. Run *npm run dev*
 
-Otherwise, here is a link to my deployed website:
+Here is a link to my deployed website:
 
 matthew-neie.netlify.app
