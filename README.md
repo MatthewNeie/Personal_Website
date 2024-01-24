@@ -1,4 +1,4 @@
-*Welcome to my personal website!*
+**Welcome to my personal website!**
 
 Here you will find out more about me, my technical skills, and projects I have completed.
 
