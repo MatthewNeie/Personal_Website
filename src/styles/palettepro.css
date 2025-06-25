@@ -1,0 +1,86 @@
+/* PALETTEPRO */
+
+.projects-palettepro-div {
+  padding: 0.4vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 5vh;
+}
+
+.palettepro-top-div {
+  height: 7vh;
+  margin-bottom: 2vh;
+  background-color: #131212ef;
+  border: solid #131212ef 2px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.palettepro-middle-div {
+  display: flex;
+}
+
+.palettepro-left {
+  margin-left: 1vw;
+  font-size: 1.2vw;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.palettepro-right {
+  margin-left: 3vw;
+  width: 40vw;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.palettepro-right-header {
+  border-radius: 10px;
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+
+.palettepro-right-details {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.palettepro-right-title {
+  text-align: center;
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+
+.palettepro-right-desc {
+  font-size: 1.2vw;
+  line-height: 1.3vh;
+}
+
+.palettepro-image {
+  width: 35vw;
+}
+
+.palettepro-bottom {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.github-icon {
+  font-size: 1.2vw;
+  color: white;
+}

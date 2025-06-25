@@ -1,0 +1,79 @@
+/* Home */
+
+.home-container {
+  background-color: #241244;
+  position: relative;
+  color: white;
+  margin-left: 7vw;
+  width: 92.2vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-body {
+  display: flex;
+}
+
+.home-body-left {
+  flex: 1;
+  width: 75%;
+  letter-spacing: 0.2vh;
+  line-height: 5vh;
+  margin-left: 3vw;
+  margin-top: 7vh;
+}
+
+.home-body-right {
+  flex: 1;
+  text-align: center;
+  margin-right: 5vw;
+}
+
+.home-image {
+  width: 30vw;
+  margin-top: 20vh;
+  margin-right: 3vw;
+  transition: 1s ease;
+  opacity: 0.8;
+}
+
+.home-body-right:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 1s ease;
+  opacity: 1;
+}
+
+.home-name {
+  font-size: 4.6vw;
+  color: gold;
+}
+
+/* .home-name:hover {
+    font-size: 4rem;
+    transition: 1s ease;
+    color: gold;
+    cursor: default;
+  } */
+
+.home-title {
+  font-size: 3vw;
+}
+
+.home-description {
+  font-size: 1.5vw;
+  font-family: "Times New Roman";
+}
+
+.home-quote {
+  text-align: center;
+  font-style: italic;
+}
+
+.home-quote-author {
+  text-align: center;
+  font-style: oblique;
+}
