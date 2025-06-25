@@ -1,0 +1,86 @@
+/* PETSTOP */
+
+.projects-petstop-div {
+  padding: 0.4vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 5vh;
+}
+
+.petstop-top-div {
+  height: 7vh;
+  margin-bottom: 2vh;
+  background-color: #131212ef;
+  border: solid #131212ef 2px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.petstop-middle-div {
+  display: flex;
+}
+
+.petstop-left {
+  margin-left: 1vw;
+  font-size: 1.2vw;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.petstop-right {
+  margin-left: 3vw;
+  width: 40vw;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.petstop-right-header {
+  border-radius: 10px;
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+
+.petstop-right-details {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.petstop-right-title {
+  text-align: center;
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+
+.petstop-right-desc {
+  font-size: 1.2vw;
+  line-height: 1.3vh;
+}
+
+.petstop-image {
+  width: 35vw;
+}
+
+.petstop-bottom {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-icon {
+  font-size: 1.2vw;
+  color: white;
+}

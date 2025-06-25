@@ -1,0 +1,97 @@
+/* Contact */
+
+.contact-container {
+  margin-left: 7vw;
+  width: 92.2vw;
+  text-align: center;
+  background-color: #241244;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-header {
+  font-size: 60px;
+  color: gold;
+}
+
+.contact-desc {
+  color: white;
+  width: 450px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contact-form-top {
+  padding: 10px;
+}
+
+.contact-form-subject {
+  margin-bottom: 10px;
+}
+
+.contact-form-message {
+}
+
+.name-input {
+  padding: 15px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: solid black 1px;
+}
+
+.email-input {
+  margin-left: 5px;
+  padding: 15px;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: solid black 1px;
+}
+
+.subject-input {
+  padding: 15px;
+  width: 439px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: solid black 1px;
+}
+
+.message-input {
+  padding: 15px;
+  width: 440px;
+  height: 100px;
+  font-family: Arial;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: solid black 1px;
+}
+
+.contact-form-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+
+.contact-form-button {
+  padding: 12px;
+  font-size: 16px;
+  font-family: Arial;
+  opacity: 0.7;
+  border-radius: 12px;
+  border: solid black 1px;
+  cursor: pointer;
+}

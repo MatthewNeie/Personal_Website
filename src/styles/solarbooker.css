@@ -1,0 +1,86 @@
+/* SOLAR BOOKER */
+
+.projects-solarbooker-div {
+  padding: 0.4vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 5vh;
+}
+
+.solarbooker-top-div {
+  height: 7vh;
+  margin-bottom: 2vh;
+  background-color: #131212ef;
+  border: solid #131212ef 2px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.solarbooker-middle-div {
+  display: flex;
+}
+
+.solarbooker-left {
+  margin-left: 1vw;
+  font-size: 1.2vw;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.solarbooker-right {
+  margin-left: 3vw;
+  width: 40vw;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.solarbooker-right-header {
+  border-radius: 10px;
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+
+.solarbooker-right-details {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.solarbooker-right-title {
+  text-align: center;
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+
+.solarbooker-right-desc {
+  font-size: 1.2vw;
+  line-height: 1.3vh;
+}
+
+.solarbooker-image {
+  width: 35vw;
+}
+
+.solarbooker-bottom {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.github-icon {
+  font-size: 1.2vw;
+  color: white;
+}

@@ -1,0 +1,16 @@
+.projects-container {
+  background-color: #241244;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 92.2vw;
+  margin-left: 7vw;
+}
+
+.projects-header {
+  font-size: 3.5vw;
+  color: gold;
+  margin-bottom: 7vh;
+}

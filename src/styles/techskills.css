@@ -1,0 +1,129 @@
+/* Technical Skills */
+
+.technical-skills-container {
+  margin-left: 7vw;
+  width: 92.2vw;
+  background-color: #241244;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.tech-skills-header {
+  color: gold;
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.tech-skills-grid-div {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  margin-right: 1vw;
+  margin-top: 3vh;
+}
+
+.tech-skills-list {
+  height: 100vh;
+  margin-left: 1vw;
+  color: #eee;
+  font-size: 2vw;
+  grid-column: 1;
+  grid-row: 1 / 8;
+}
+
+.tech-skills-listitem {
+  margin-bottom: 5vh;
+}
+
+.one {
+  grid-column: 2;
+  grid-row: 2 / 6;
+  width: 1vw;
+}
+
+/* height: 180px;
+    background-image: url(./src/images/visual-studio-code-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    rotate: 0deg; */
+
+.vsc-image {
+  width: 10vw;
+}
+
+.two {
+  grid-column: 3;
+  grid-row: 1 / 6;
+  width: 1vw;
+}
+
+.git-image {
+  width: 10vw;
+}
+
+.three {
+  grid-column: 2;
+  grid-row: 6 / 6;
+  width: 1vw;
+}
+
+.react-image {
+  width: 10vw;
+}
+
+.four {
+  grid-column: 5;
+  grid-row: 2 / 6;
+  width: 1vw;
+}
+
+.java-image {
+  width: 10vw;
+  rotate: 10deg;
+}
+
+.five {
+  grid-column: 4;
+  grid-row: 3 / 6;
+  width: 1vw;
+}
+
+.css-image {
+  width: 10vw;
+}
+
+.six {
+  grid-column: 3;
+  grid-row: 4 / 6;
+  width: 1vw;
+}
+
+.nodejs-image {
+  width: 10vw;
+  rotate: -10deg;
+}
+
+.seven {
+  grid-column: 5;
+  grid-row: 5 / 6;
+  width: 1vw;
+}
+
+.html-image {
+  width: 10vw;
+  rotate: -10deg;
+}
+
+.eight {
+  grid-column: 4;
+  grid-row: 6/6;
+  width: 1vw;
+}
+
+.postgreSQL-image {
+  width: 10vw;
+  rotate: 10deg;
+}

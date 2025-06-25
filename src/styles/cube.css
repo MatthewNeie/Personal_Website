@@ -1,0 +1,115 @@
+/* Cube */
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(139, 201, 228);
+  animation: body 1s linear;
+}
+@keyframes body {
+  to {
+    background-color: rgb(19, 48, 97);
+  }
+}
+
+.progress {
+  height: 3px;
+  width: 0%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: progress 1s linear;
+}
+@keyframes progress {
+  to {
+    background-color: rgb(20, 255, 226);
+    width: 100%;
+  }
+}
+
+.cube-wrap {
+  --size: 50px;
+  position: fixed;
+  top: 6%;
+  left: 2.3%;
+  width: 0;
+  height: 0;
+  perspective: 100vmin;
+  min-height: 4vmin;
+}
+.cube {
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateZ(45deg) rotateY(-45deg);
+  animation: cube 1s linear;
+}
+@keyframes cube {
+  to {
+    transform: rotateX(360deg) rotateZ(45deg) rotateY(-45deg);
+  }
+}
+
+.side {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  background-color: #eee;
+  backface-visibility: visible;
+  top: calc(var(--size) * -0.5);
+  left: calc(var(--size) * -0.5);
+  display: block;
+  border: solid black 1px;
+}
+
+.top {
+  background-color: green;
+  transform: rotateX(90deg) translateZ(calc(var(--size) * 0.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.bottom {
+  background-color: blue;
+  transform: rotateX(90deg) translateZ(calc(var(--size) * -0.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.left {
+  background-color: red;
+  transform: rotateY(90deg) translateZ(calc(var(--size) * 0.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.right {
+  background-color: orange;
+  transform: rotateY(90deg) translateZ(calc(var(--size) * -0.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.front {
+  background-color: yellow;
+  transform: translateZ(calc(var(--size) * 0.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.back {
+  background-color: white;
+  transform: translateZ(calc(var(--size) * -0.5));
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.grid {
+  display: flex;
+  border: solid black 1px;
+}
+
+:root * {
+  /* Pause the animation */
+  animation-play-state: paused;
+  /* Bind the animation to scroll */
+  animation-delay: calc(var(--scroll) * -1s);
+  /* These last 2 properites clean up overshoot weirdness */
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}

@@ -1,0 +1,58 @@
+/* Footer / Sidebar-Links */
+
+.footer-container {
+  background-color: #131212ef;
+  display: flex;
+  height: 140px;
+  margin-left: 7vw;
+  width: 92.2vw;
+}
+
+.footer-left {
+  flex: 1;
+  margin-top: 40px;
+  border-top: solid white;
+  margin-left: 40px;
+}
+
+.footer-right {
+  flex: 1;
+  margin-top: 40px;
+  border-top: solid white;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-year {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-contact-info {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-contact-phone {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.footer-contact-email {
+  color: white;
+  font-family: sans-serif;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

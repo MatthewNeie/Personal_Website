@@ -1,0 +1,86 @@
+/* YUMSPOT */
+
+.projects-yumspot-div {
+  padding: 0.4vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 5vh;
+}
+
+.yumspot-top-div {
+  height: 7vh;
+  margin-bottom: 2vh;
+  background-color: #131212ef;
+  border: solid #131212ef 2px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.yumspot-middle-div {
+  display: flex;
+}
+
+.yumspot-left {
+  margin-left: 1vw;
+  font-size: 1.2vw;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.yumspot-right {
+  margin-left: 3vw;
+  width: 40vw;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.yumspot-right-header {
+  border-radius: 10px;
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+
+.yumspot-right-details {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+
+.yumspot-right-title {
+  text-align: center;
+  font-size: 0.9vw;
+  text-decoration: underline;
+}
+
+.yumspot-right-desc {
+  font-size: 1.2vw;
+  line-height: 1.3vh;
+}
+
+.yumspot-image {
+  width: 35vw;
+}
+
+.yumspot-bottom {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.github-icon {
+  font-size: 1.2vw;
+  color: white;
+}
