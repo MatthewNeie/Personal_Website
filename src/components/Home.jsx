@@ -68,14 +68,12 @@ const Home = ({ calRef, fsRef, homeRef, techRef, projectRef, contactRef }) => {
                 </Reveal>
                 <Reveal>
                   <p className="home-description">
-                    I am a web developer and I recently completed an accelerated
-                    program for web development with FullStack Academy. I am
-                    interested in developing my skills and adding projects to my
-                    portfolio by taking on freelance projects or working on
-                    projects with other developers. I am interested in full time
-                    or part time employment opportunities, as well as
-                    internships or apprenticeships. Feel free to contact me by
-                    completing my contact form below.{" "}
+                    I have completed an accelerated program for web development
+                    with FullStack Academy. I am interested in full time or part
+                    time employment opportunities, as well as internships or
+                    apprenticeships. I am also interested in taking on freelance
+                    projects. Feel free to contact me by completing my contact
+                    form below.{" "}
                   </p>
                 </Reveal>
                 <br></br>
