@@ -3,27 +3,20 @@ import { useState } from "react";
 import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import Image1 from "../../images/petstop-image-1.png";
-import Image2 from "../../images/petstop-image-2.png";
-import Image3 from "../../images/petstop-image-3.png";
-import Image4 from "../../images/petstop-image-4.png";
-import Image5 from "../../images/petstop-image-5.png";
-import Image6 from "../../images/petstop-image-6.png";
-import Image7 from "../../images/petstop-image-7.png";
-import Image8 from "../../images/petstop-image-8.png";
-import Image9 from "../../images/petstop-image-9.png";
-import Image10 from "../../images/petstop-image-10.png";
+import Image1 from "../../images/surgerystatus1.png";
+import Image2 from "../../images/surgerystatus3.png";
+import Image3 from "../../images/surgerystatus2.png";
 import "../../styles/petstop.css";
 
-const PetStop = () => {
+const SurgeryStatus = () => {
   const [open, setOpen] = useState("closed");
   const [count, setCount] = useState(0);
   const leftHandleClick = () => {
-    setCount(count > 0 ? count - 1 : 9);
+    setCount(count > 0 ? count - 1 : 2);
   };
 
   const rightHandleClick = () => {
-    setCount(count < 9 ? count + 1 : 0);
+    setCount(count < 2 ? count + 1 : 0);
   };
 
   const handleOpen = () => {
@@ -42,7 +35,7 @@ const PetStop = () => {
           handleOpen();
         }}
       >
-        <h1> PetStop </h1>
+        <h1>Surgery Status</h1>
       </div>
       {open === "closed" ? null : (
         <>
@@ -56,27 +49,6 @@ const PetStop = () => {
               )}
               {count !== 2 ? null : (
                 <img src={Image3} className="petstop-image" />
-              )}
-              {count !== 3 ? null : (
-                <img src={Image4} className="petstop-image" />
-              )}
-              {count !== 4 ? null : (
-                <img src={Image5} className="petstop-image" />
-              )}
-              {count !== 5 ? null : (
-                <img src={Image6} className="petstop-image" />
-              )}
-              {count !== 6 ? null : (
-                <img src={Image7} className="petstop-image" />
-              )}
-              {count !== 7 ? null : (
-                <img src={Image8} className="petstop-image" />
-              )}
-              {count !== 8 ? null : (
-                <img src={Image9} className="petstop-image" />
-              )}
-              {count !== 9 ? null : (
-                <img src={Image10} className="petstop-image" />
               )}
               <p>
                 <ArrowCircleLeftIcon
@@ -97,26 +69,29 @@ const PetStop = () => {
               </div>
               <div className="petstop-right-details">
                 <div className="petstop-right-desc">
-                  <p>Guest access and user access</p>
-                  <p>Sort and filter products by price, name, and category</p>
-                  <p>Add, edit, delete products</p>
-                  <p>Add, edit, remove items from cart</p>
-                  <p>Display reviews for individual products</p>
-                  <p>Profile page with user information</p>
+                  <p>Patient status display</p>
+                  <p>Surgical status updates</p>
+                  <p>Add new patient</p>
+                  <p>Edit patient information</p>
+                  <p>Patient waiting room screen</p>
                   <p>Administrator access</p>
-                  <p>Create tables in PostgreSQL</p>
-                  <p>Insert, seed data</p>
-                  <p>Secure Bcrypt hashed passwords</p>
+                  <p>Project management with Agile methodology</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="petstop-bottom">
+          <div className="expensesplitter-bottom">
             <a
-              href="https://github.com/MatthewNeie/PetStop"
+              href="https://github.com/chingu-voyages/V56-tier2-team-25"
               className="github-icon"
             >
               <GitHubIcon style={{ fontSize: "1.2vw" }} /> GitHub{" "}
+            </a>
+            <a
+              href="https://v56-tier2-team-25-chingu.vercel.app/"
+              className="github-icon"
+            >
+              Deployed
             </a>
           </div>
         </>
@@ -125,4 +100,4 @@ const PetStop = () => {
   );
 };
 
-export default PetStop;
+export default SurgeryStatus;

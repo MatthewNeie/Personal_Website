@@ -36,6 +36,7 @@
 
 .tech-skills-listitem {
   margin-bottom: 5vh;
+  font-size: 30px;
 }
 
 .one {
@@ -124,6 +125,29 @@
 }
 
 .postgreSQL-image {
+  width: 10vw;
+  rotate: 10deg;
+}
+
+.nine {
+  grid-column: 3;
+  grid-row: 6/6;
+  width: 1vw;
+}
+
+.typescript-img {
+  width: 10vw;
+  rotate: 5deg;
+}
+
+.ten {
+  grid-column: 5;
+  grid-row: 6/6;
+  width: 1vw;
+}
+
+.tailwind-img {
+  margin-top: 5vh;
   width: 10vw;
   rotate: 10deg;
 }

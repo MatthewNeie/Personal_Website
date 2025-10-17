@@ -23,8 +23,10 @@ const TechnicalSkills = ({ techRef }) => {
               <li className="tech-skills-listitem"> Node.js</li>
               <li className="tech-skills-listitem"> Git</li>
               <li className="tech-skills-listitem"> JavaScript</li>
+              <li className="tech-skills-listitem"> Typescript</li>
               <li className="tech-skills-listitem"> PostgreSQL</li>
               <li className="tech-skills-listitem"> CSS</li>
+              <li className="tech-skills-listitem"> Tailwind CSS</li>
               <li className="tech-skills-listitem"> HTML</li>
               <li className="tech-skills-listitem"> React</li>
             </ul>
@@ -91,6 +93,22 @@ const TechnicalSkills = ({ techRef }) => {
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/800px-Postgresql_elephant.svg.png"
               className="postgreSQL-image"
+            />
+          </RevealLogoSQL>
+        </div>
+        <div className="nine">
+          <RevealLogoSQL>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+              className="typescript-img"
+            />
+          </RevealLogoSQL>
+        </div>
+        <div className="ten">
+          <RevealLogoSQL>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
+              className="tailwind-img"
             />
           </RevealLogoSQL>
         </div>

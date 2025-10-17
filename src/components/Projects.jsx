@@ -10,6 +10,8 @@ import SolarBooker from "./projects/SolarBooker";
 import ConsiderateCarrot from "./projects/ConsiderateCarrot";
 import AiQ from "./projects/AiQ";
 import Resourcery from "./projects/Resourcery";
+import SurgeryStatus from "./projects/SurgeryStatus";
+import PRTracker from "./projects/PRTracker";
 
 const Projects = ({ projectRef }) => {
   return (
@@ -23,6 +25,8 @@ const Projects = ({ projectRef }) => {
       <ConsiderateCarrot />
       <AiQ />
       <Resourcery />
+      <SurgeryStatus />
+      <PRTracker />
     </div>
   );
 };
